@@ -4,7 +4,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta charset="UTF-8">
-    <title>DEMO模板</title>
+    <title>海尔官网|你的生活智慧，我的智慧生活</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <meta name="format-detection" content="telephone=no, email=no" />
     <meta name="renderer" content="webkit">
@@ -14,7 +14,8 @@
     <!--#include virtual="head.shtml"-->
     <!-- css资源end -->
     <!-- 本页面独立css start -->
-    <link rel="stylesheet" href="./images/index.css">
+    <link rel="stylesheet" href="./images/obox.css">
+    <link rel="stylesheet" href="./images/iconfont2019/iconfont.css">
     <link rel="stylesheet" href="./images/guanwang.css">
     <!-- 本页面独立css end -->
 </head>

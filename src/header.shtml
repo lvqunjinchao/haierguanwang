@@ -1,1 +1,364 @@
-这是头部
+<div class="header2019 relative">
+    <div class="warp o_g">
+        <div class="o_g o_u o_df_9-12 o_xs_2-2 o_md_2-2">
+            <div class="o_u o_xs_1-3 o_md_1-3 center">
+                <a href="javascript:;">
+                    <img src="./images/ia_100000000.png" alt="" class="logo">
+                </a>
+            </div>
+            <div class="nav js_m_nav sd_nav">
+                <div class="box box_dan relative">
+                    <span>智慧家庭</span>
+                    <div class="list">
+                        <p class="hover_line"></p>
+                        <a href="javascript:;">智慧首页</a>
+                        <a href="javascript:;">智家方案</a>
+                        <a href="javascript:;">智慧家电</a>
+                        <a href="javascript:;">生活资讯</a>
+                        <a href="javascript:;">智慧体验店</a>
+                    </div>
+                </div>
+                <div class="box box_xiao js_box_buy relative">
+                    <span>个人与家用产品</span>
+                    <ul class="left js_left">
+                        <p class="hover_line"></p>
+                        <li class="">
+                            <i class="iconfont iconbingxiang"></i>
+                            <a href="javascript:;">冰箱</a>
+                            <a href="javascript:;">冷柜</a>
+                            <div class="content o_g displaynone">
+                                <div class="not-hide">
+                                    <a href="javasccript:;" class="title">冰箱</a>
+                                    <div class="content_detail">
+                                        <span>对开门</span>
+                                        <span>十字开门</span>
+                                        <span>多门</span>
+                                        <span>三门</span>
+                                        <span>两门</span>
+                                        <span>单门</span>
+                                    </div>
+                                </div>
+                                <div class="not-hide">
+                                    <a href="javasccript:;" class="title">冰箱</a>
+                                    <div class="content_detail">
+                                        <span>对开门</span>
+                                        <span>十字开门</span>
+                                    </div>
+                                </div>
+                                <div class="content_bottom">
+                                    <img src="./images/ia_100000008.jpg" alt="">
+                                    <div class="bottom_right">
+                                        <p class="title2">海尔智慧家庭</p>
+                                        <p class="subtitle">定制美好生活</p>
+                                        <a href="javasccript:;" class="more">了解更多</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="">
+                            <i class="iconfont iconbingbajiugui"></i>
+                            <a href="javascript:;">冰吧</a>
+                            <a href="javascript:;">酒柜</a>
+                            <div class="content o_g displaynone">
+                                <div class="not-hide">
+                                    <a href="javasccript:;" class="title">冰吧</a>
+                                    <div class="content_detail">
+                                        <span>对开酒柜</span>
+                                        <span>十字酒柜</span>
+                                        <span>横拉</span>
+                                        <span>拖拉</span>
+                                        <span>单拉</span>
+                                        <span>旋转</span>
+                                    </div>
+                                </div>
+                                <div class="not-hide">
+                                    <a href="javasccript:;" class="title">酒柜</a>
+                                    <div class="content_detail">
+                                        <span>对开门</span>
+                                        <span>十字开门</span>
+                                    </div>
+                                </div>
+                                <div class="content_bottom">
+                                    <img src="./images/ia_100000008.jpg" alt="">
+                                    <div class="bottom_right">
+                                        <p class="title2">海尔智慧家庭</p>
+                                        <p class="subtitle">定制美好生活</p>
+                                        <a href="javasccript:;" class="more">了解更多</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="">
+                            <i class="iconfont iconxiyiji"></i>
+                            <a href="javascript:;">洗衣机</a>
+                            <div class="content o_g displaynone">
+                                <div class="not-hide">
+                                    <a href="javasccript:;" class="title">洗衣机</a>
+                                    <div class="content_detail">
+                                        <span>对开门</span>
+                                        <span>十字开门</span>
+                                        <span>多门</span>
+                                        <span>三门</span>
+                                        <span>两门</span>
+                                        <span>单门</span>
+                                    </div>
+                                </div>
+                                <div class="content_bottom">
+                                    <img src="./images/ia_100000008.jpg" alt="">
+                                    <div class="bottom_right">
+                                        <p class="title2">海尔智慧家庭</p>
+                                        <p class="subtitle">定制美好生活</p>
+                                        <a href="javasccript:;" class="more">了解更多</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="">
+                            <i class="iconfont iconkongtiao"></i>
+                            <a href="javascript:;">空调</a>
+                            <div class="content o_g displaynone">
+                                <div class="not-hide">
+                                    <a href="javasccript:;" class="title">空调</a>
+                                    <div class="content_detail">
+                                        <span>对开门</span>
+                                        <span>十字开门</span>
+                                        <span>多门</span>
+                                        <span>三门</span>
+                                        <span>两门</span>
+                                        <span>单门</span>
+                                    </div>
+                                </div>
+                                <div class="content_bottom">
+                                    <img src="./images/ia_100000008.jpg" alt="">
+                                    <div class="bottom_right">
+                                        <p class="title2">海尔智慧家庭</p>
+                                        <p class="subtitle">定制美好生活</p>
+                                        <a href="javasccript:;" class="more">了解更多</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="">
+                            <i class="iconfont icondianshi"></i>
+                            <a href="javascript:;">电视</a>
+                            <div class="content o_g displaynone">
+                                <div class="not-hide">
+                                    <a href="javasccript:;" class="title">电视</a>
+                                    <div class="content_detail">
+                                        <span>对开门</span>
+                                        <span>十字开门</span>
+                                        <span>多门</span>
+                                        <span>三门</span>
+                                        <span>两门</span>
+                                        <span>单门</span>
+                                    </div>
+                                </div>
+                                <div class="content_bottom">
+                                    <img src="./images/ia_100000008.jpg" alt="">
+                                    <div class="bottom_right">
+                                        <p class="title2">海尔智慧家庭</p>
+                                        <p class="subtitle">定制美好生活</p>
+                                        <a href="javasccript:;" class="more">了解更多</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="">
+                            <i class="iconfont iconreshuiqi"></i>
+                            <a href="javascript:;">热水器</a>
+                            <div class="content o_g displaynone">
+                                <div class="not-hide">
+                                    <a href="javasccript:;" class="title">热水器</a>
+                                    <div class="content_detail">
+                                        <span>对开门</span>
+                                        <span>十字开门</span>
+                                        <span>多门</span>
+                                        <span>三门</span>
+                                        <span>两门</span>
+                                        <span>单门</span>
+                                    </div>
+                                </div>
+                                <div class="content_bottom">
+                                    <img src="./images/ia_100000008.jpg" alt="">
+                                    <div class="bottom_right">
+                                        <p class="title2">海尔智慧家庭</p>
+                                        <p class="subtitle">定制美好生活</p>
+                                        <a href="javasccript:;" class="more">了解更多</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="">
+                            <i class="iconfont iconchufangxiaojiadian"></i>
+                            <a href="javascript:;">厨房电器</a>
+                            <div class="content o_g displaynone">
+                                <div class="not-hide">
+                                    <a href="javasccript:;" class="title">厨房电器</a>
+                                    <div class="content_detail">
+                                        <span>对开门</span>
+                                        <span>十字开门</span>
+                                        <span>多门</span>
+                                        <span>三门</span>
+                                        <span>两门</span>
+                                        <span>单门</span>
+                                    </div>
+                                </div>
+                                <div class="content_bottom">
+                                    <img src="./images/ia_100000008.jpg" alt="">
+                                    <div class="bottom_right">
+                                        <p class="title2">海尔智慧家庭</p>
+                                        <p class="subtitle">定制美好生活</p>
+                                        <a href="javasccript:;" class="more">了解更多</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="">
+                            <i class="iconfont icongehuxiaojiadian"></i>
+                            <a href="javascript:;">小家电</a>
+                            <div class="content o_g displaynone">
+                                <div class="not-hide">
+                                    <a href="javasccript:;" class="title">小家电</a>
+                                    <div class="content_detail">
+                                        <span>对开门</span>
+                                        <span>十字开门</span>
+                                        <span>多门</span>
+                                        <span>三门</span>
+                                        <span>两门</span>
+                                        <span>单门</span>
+                                    </div>
+                                </div>
+                                <div class="content_bottom">
+                                    <img src="./images/ia_100000008.jpg" alt="">
+                                    <div class="bottom_right">
+                                        <p class="title2">海尔智慧家庭</p>
+                                        <p class="subtitle">定制美好生活</p>
+                                        <a href="javasccript:;" class="more">了解更多</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="">
+                            <i class="iconfont iconquanwujiadiandingzhi"></i>
+                            <a href="javascript:;">电脑和外设</a>
+                            <div class="content o_g displaynone">
+                                <div class="not-hide">
+                                    <a href="javasccript:;" class="title">电脑和外设</a>
+                                    <div class="content_detail">
+                                        <span>对开门</span>
+                                        <span>十字开门</span>
+                                        <span>多门</span>
+                                        <span>三门</span>
+                                        <span>两门</span>
+                                        <span>单门</span>
+                                    </div>
+                                </div>
+                                <div class="content_bottom">
+                                    <img src="./images/ia_100000008.jpg" alt="">
+                                    <div class="bottom_right">
+                                        <p class="title2">海尔智慧家庭</p>
+                                        <p class="subtitle">定制美好生活</p>
+                                        <a href="javasccript:;" class="more">了解更多</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="box box_dan relative">
+                    <span>商业解决方案</span>
+                    <div class="list">
+                        <p class="hover_line"></p>
+                        <a href="javascript:;">中央空调</a>
+                        <a href="javascript:;">商用冷柜</a>
+                        <a href="javascript:;">商用洗涤</a>
+                        <a href="javascript:;">商用电视</a>
+                        <a href="javascript:;">商用电脑</a>
+                        <a href="javascript:;">U-home</a>
+                        <a href="javascript:;">商用净水器</a>
+                        <a href="javascript:;">商用热泵</a>
+                    </div>
+                </div>
+                <div class="box  box_buy js_box_buy relative">
+                    <span>购买与服务</span>
+                    <ul class="left js_left">
+                        <p class="hover_line"></p>
+                        <li class="">购买渠道
+                            <div class="content o_g displaynone">
+                                <span class="o_u o_df_1-2">
+                                    <a href="javascript:;">海尔商城</a>
+                                </span>
+                                <span class="o_u o_df_1-2">
+                                    <a href="javascript:;">海尔门店</a>
+                                </span>
+                            </div>
+                        </li>
+                        <li class="">售后服务
+                            <div class="content o_g displaynone">
+                                <span class="o_u o_df_1-2">
+                                    <a href="javascript:;">认证产品</a>
+                                </span>
+                                <span class="o_u o_df_1-2">
+                                    <a href="javascript:;">预约安装</a>
+                                </span>
+                                <span class="o_u o_df_1-2">
+                                    <a href="javascript:;">在线保修</a>
+                                </span>
+                                <span class="o_u o_df_1-2">
+                                    <a href="javascript:;">特色服务</a>
+                                </span>
+                                <span class="o_u o_df_1-2">
+                                    <a href="javascript:;">认证产品</a>
+                                </span>
+                                <span class="o_u o_df_1-2">
+                                    <a href="javascript:;">预约安装</a>
+                                </span>
+                                <span class="o_u o_df_1-2">
+                                    <a href="javascript:;">在线保修</a>
+                                </span>
+                                <span class="o_u o_df_1-2">
+                                    <a href="javascript:;">特色服务</a>
+                                </span>
+                            </div>
+                        </li>
+                        <li class="">会员尊享
+                            <div class="content o_g displaynone">
+                                <span class="o_u o_df_1-2">
+                                    <a href="javascript:;">免费试用</a>
+                                </span>
+                                <span class="o_u o_df_1-2">
+                                    <a href="javascript:;">海贝商城</a>
+                                </span>
+                                <span class="o_u o_df_1-2">
+                                    <a href="javascript:;">海贝获取</a>
+                                </span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="box box_dan relative">
+                    <span>关于海尔</span>
+                    <div class="list">
+                        <p class="hover_line"></p>
+                        <a href="javascript:;">海尔集团</a>
+                        <a href="javascript:;">海尔品牌</a>
+                        <a href="javascript:;">投资者关系</a>
+                        <a href="javascript:;">关于海尔</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="o_u o_df_3-12 o_xs-hide o_md-hide">
+            <div class="tools">
+                <div class="search">
+                    <i class="iconfont iconsousuo js_searchBtn"></i>
+                    <input type="text">
+                </div>
+                <div class="user">
+                    <i class="iconfont iconyonghutouxiang js_goLogin js_noLogin"></i>
+                    <i class="iconfont iconyonghutouxiang_dengluhou js_hasLogin js_noLogin displaynone"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
