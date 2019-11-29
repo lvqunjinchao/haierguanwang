@@ -67,4 +67,77 @@ if (width > 1200) {
         $this = $(this);
         $this.parents('.js_wechat_box').siblings('.js_sweep_code_box').addClass('displaynone');
     });
+    // 导航栏下面的轮播图
+    var bannerSlider = $(".js_banner").oSlider({
+        loop: true,
+        pager: ".js_pager",
+        pagerHover: false,
+        speed: 3000,
+        startFn: function() {
+            // console.log("1");
+        },
+        playFn: function() {
+            // console.log("1");
+        }
+    });
+    bannerSlider.init();
+    // 轮播图箭头
+    $('.btn_prev').html('<i class="iconfont iconshangyige"></i>');
+    $('.btn_next').html('<i class="iconfont iconxiayige"></i>');
+    // 添加隐藏类
+    $('.btn_prev').addClass('displaynone');
+    $('.btn_next').addClass('displaynone');
+    $('.js_banner').on('mouseenter', function() {
+        $this = $(this);
+        $this.find('.btn_prev').removeClass('displaynone');
+        $this.find('.btn_next').removeClass('displaynone');
+    });
+    $('.js_banner').on('mouseleave', function() {
+        $this = $(this);
+        $this.find('.btn_prev').addClass('displaynone');
+        $this.find('.btn_next').addClass('displaynone');
+    });
+    // 心选轮播图
+    var index = 0;
+    var bannerSlider2 = $(".js_xinxuan_bottom").oSlider({
+        loop: true,
+        pager: ".js_pager2",
+        pagerHover: false,
+        // speed: 3000,
+        startFn: function() {
+
+        },
+        playFn: function(p) {
+            // console.log(p.i);
+            $('.js_xinxuan_tab_box ul li').eq(p.i).find('span').addClass('bg_color_005aaa');
+            $('.js_xinxuan_tab_box ul li').eq(p.i).siblings('li').find('span').removeClass('bg_color_005aaa');
+        }
+    });
+    bannerSlider2.init();
+
+    // 将swiper和tab选项卡绑定
+    $('.js_xinxuan_tab_box ul').on('click', 'li', function(e) {
+        // 获取当前索引
+        index = $(this).index();
+        console.log(index);
+        bannerSlider2.goto(index);
+        $this = $(this);
+        $this.find('span').addClass('bg_color_005aaa');
+        $this.siblings('li').find('span').removeClass('bg_color_005aaa');
+    });
+
+    // 爆款商品轮播图
+    var starbannerSlider = $(".js_star_banner").oSlider({
+        loop: true,
+        pager: ".js_star_pager",
+        pagerHover: false,
+        // speed: 3000,
+        // startFn: function() {
+        //     console.log("开始");
+        // },
+        // playFn: function() {
+        //     console.log("play");
+        // }
+    });
+    starbannerSlider.init();
 }
