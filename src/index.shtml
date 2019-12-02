@@ -388,10 +388,53 @@
                         <div class="showbox">
                             <ul class="o_g">
                                 <li class="o_u o_df_2-2 o_sm_1-2">
-                                    <img src="./images/ia_100001657.png" alt="">
+                                    <a href="javascript:;" class="star_linka">
+                                        <div class="star_content">
+                                            <div class="o_u o_df_6-24 star_msg">
+                                                <p class="star_name">
+                                                    海尔智家<br>全场景智慧解决方案
+                                                </p>
+                                            </div>
+                                            <div class="o_u o_df_5-24 star_sale">
+                                                <p>5大智慧生活空间<br>7大专业解决方案<br>N中个性需求定制</p>
+                                            </div>
+                                            <div class="o_u o_df_15-24  star_img">
+                                                <img src="./images/ia_100001725.png" alt="">
+                                            </div>
+                                            <div class="o_u o_df_4-24 o_xs_12-12 star_price">
+                                                <span class="price_normal">参考价</span>
+                                                <span class="price_big">3999</span>
+                                            </div>
+                                            <div class="star_link">
+                                                <span class="sd_text">了解更多</span>
+                                            </div>
+                                        </div>
+                                    </a>
                                 </li>
                                 <li class="o_u o_df_2-2 o_sm_1-2">
-                                    <img src="./images/ia_100001661.jpeg" alt="">
+                                    <a href="javascript:;" class="star_linka">
+                                        <div class="star_content">
+                                            <div class="o_u o_df_6-24 star_msg">
+                                                <p class="star_name">
+                                                    智能电视<br>全场景智慧解决方案
+                                                </p>
+                                                <p class="star_no sd_text">SUDBE NLDSNAASPF</p>
+                                            </div>
+                                            <div class="o_u o_df_5-24 star_sale">
+                                                <p>人工智能语音<br>4K影视VIP<br>家联网视频通话</p>
+                                            </div>
+                                            <div class="o_u o_df_15-24  star_img">
+                                                <img src="./images/ia_100001727.png" alt="">
+                                            </div>
+                                            <div class="o_u o_df_4-24 o_xs_12-12 star_price">
+                                                <span class="price_normal">参考价</span>
+                                                <span class="price_big">6666</span>
+                                            </div>
+                                            <div class="star_link">
+                                                <span class="sd_text">了解更多</span>
+                                            </div>
+                                        </div>
+                                    </a>
                                 </li>
                             </ul>
                         </div>
@@ -399,9 +442,85 @@
                         <ul class="star_pager js_star_pager"></ul>
                     </div>
                 </div>
-                <!-- 爆款商品 end-->
-
             </div>
+            <!-- 爆款商品 end-->
+
+            <!-- 人气排行 start -->
+            <div class="o_g xinxuan paihang">
+                <div class="xinxuan_title">
+                    人气排行
+                </div>
+                <!-- 排行tab -->
+                <div class="xinxuan_tab_box paihang_tab_box js_xinxuan_tab_box">
+                    <ul class="o_g xinxuan_tab">
+                        <li class="o_u o_df_1-7"><span class="bg_color_005aaa">冰箱</span></li>
+                        <li class="o_u o_df_1-7"><span>洗衣机</span></li>
+                        <li class="o_u o_df_1-7"><span>空调</span></li>
+                        <li class="o_u o_df_1-7"><span>热水器</span></li>
+                        <li class="o_u o_df_1-7"><span>电视</span></li>
+                        <li class="o_u o_df_1-7"><span>油烟机</span></li>
+                        <li class="o_u o_df_1-7"><span>燃气灶</span></li>
+                    </ul>
+                </div>
+                <div class="xinxuan_bottom paihang_bottom js_paihang_bottom relative">
+                    <div class="showbox">
+                        <ul class="o_g">
+                            <li class="o_g tabboxPaihang js_tabboxPaihang o_cur">
+                                <ul class="o_g content xinxuan_box paihang_box">
+                                    <li class="o_u o_df_1-3 o_xs_2-2 paihang_item">
+                                        <div class="paihang_pro curph_0">
+                                            <a href="javascript:;">
+                                                <div class="paihang_img">
+                                                    <img src="./images/ia_100000035.png" alt="">
+                                                </div>
+                                                <div class="paihang_right">
+                                                    <div class="paihang_name">329升风冷变频多门冰箱</div>
+                                                    <div class="paihang_xinghao">BCD-329WDVL</div>
+                                                </div>
+                                                <div class="paihang_ling">了解更多</div>
+                                                <div class="paihang_icon icon_1"></div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="o_u o_df_1-3 o_xs_2-2 paihang_item">
+                                        <div class="paihang_pro curph_0">
+                                            <a href="javascript:;">
+                                                <div class="paihang_img">
+                                                    <img src="./images/ia_100000040.png" alt="">
+                                                </div>
+                                                <div class="paihang_right">
+                                                    <div class="paihang_name">471升风冷变频十字对开门冰箱</div>
+                                                    <div class="paihang_xinghao">NEWAOCN-SDMF</div>
+                                                </div>
+                                                <div class="paihang_ling">了解更多</div>
+                                                <div class="paihang_icon icon_2"></div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="o_u o_df_1-3 o_xs_2-2 paihang_item">
+                                        <div class="paihang_pro curph_0">
+                                            <a href="javascript:;">
+                                                <div class="paihang_img">
+                                                    <img src="./images/ia_100000030.png" alt="">
+                                                </div>
+                                                <div class="paihang_right">
+                                                    <div class="paihang_name">576升风冷变频对开门冰箱</div>
+                                                    <div class="paihang_xinghao">AUSFNAWEN-SDF</div>
+                                                </div>
+                                                <div class="paihang_ling">了解更多</div>
+                                                <div class="paihang_icon icon_3"></div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--分页-->
+                    <ul class="pager3 js_paihang_banner"></ul>
+                </div>
+            </div>
+            <!-- 人气排行 end -->
 
             <!-- 尾部start -->
             <!--#include virtual="footer.shtml"-->

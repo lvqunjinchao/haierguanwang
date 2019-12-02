@@ -81,12 +81,8 @@ if (width > 1200) {
         }
     });
     bannerSlider.init();
-    // 轮播图箭头
-    $('.btn_prev').html('<i class="iconfont iconshangyige"></i>');
-    $('.btn_next').html('<i class="iconfont iconxiayige"></i>');
-    // 添加隐藏类
-    $('.btn_prev').addClass('displaynone');
-    $('.btn_next').addClass('displaynone');
+
+    // 头部轮播图
     $('.js_banner').on('mouseenter', function() {
         $this = $(this);
         $this.find('.btn_prev').removeClass('displaynone');
@@ -97,6 +93,40 @@ if (width > 1200) {
         $this.find('.btn_prev').addClass('displaynone');
         $this.find('.btn_next').addClass('displaynone');
     });
+
+
+    // 爆款商品轮播图
+    var starbannerSlider = $(".js_star_banner").oSlider({
+        loop: true,
+        pager: ".js_star_pager",
+        pagerHover: false,
+        // speed: 3000,
+        // startFn: function() {
+        //     console.log("开始");
+        // },
+        // playFn: function() {
+        //     console.log("play");
+        // }
+    });
+    starbannerSlider.init();
+    // 轮播图箭头
+    $('.btn_prev').html('<i class="iconfont iconshangyige"></i>');
+    $('.btn_next').html('<i class="iconfont iconxiayige"></i>');
+    // 添加隐藏类
+    $('.btn_prev').addClass('displaynone');
+    $('.btn_next').addClass('displaynone');
+    // 爆款商品轮播图
+    $('.js_star_banner').on('mouseenter', function() {
+        $this = $(this);
+        $this.find('.btn_prev').removeClass('displaynone');
+        $this.find('.btn_next').removeClass('displaynone');
+    });
+    $('.js_star_banner').on('mouseleave', function() {
+        $this = $(this);
+        $this.find('.btn_prev').addClass('displaynone');
+        $this.find('.btn_next').addClass('displaynone');
+    });
+
     // 心选轮播图
     var index = 0;
     var bannerSlider2 = $(".js_xinxuan_bottom").oSlider({
@@ -125,19 +155,19 @@ if (width > 1200) {
         $this.find('span').addClass('bg_color_005aaa');
         $this.siblings('li').find('span').removeClass('bg_color_005aaa');
     });
+    // 人气排行轮播图
 
-    // 爆款商品轮播图
-    var starbannerSlider = $(".js_star_banner").oSlider({
+    var paihangbannerSlider = $(".js_paihang_bottom").oSlider({
         loop: true,
-        pager: ".js_star_pager",
+        pager: ".js_paihang_banner",
         pagerHover: false,
-        // speed: 3000,
-        // startFn: function() {
-        //     console.log("开始");
-        // },
-        // playFn: function() {
-        //     console.log("play");
-        // }
+        speed: 3000,
+        startFn: function() {
+            console.log("开始");
+        },
+        playFn: function() {
+            console.log("play");
+        }
     });
-    starbannerSlider.init();
+    paihangbannerSlider.init();
 }

@@ -15,28 +15,28 @@ const {
  */
 function webService() {
     browserSync.init({
-        port: 3007,
+        port: 13007,
         server: {
             baseDir: 'src/',
             directory: true,
-            middleware: function (req, res, next) {
-                const fs = require('fs');
-                const ssi = require('ssi');
-                const baseDir = 'src/';
-                let pathname = require('url').parse(req.url).pathname;
-                let filename = require('path').join(baseDir, pathname.substr(-1) === '/' ? pathname + 'index.shtml' : pathname);
+            // middleware: function(req, res, next) {
+            //     const fs = require('fs');
+            //     const ssi = require('ssi');
+            //     const baseDir = 'src/';
+            //     let pathname = require('url').parse(req.url).pathname;
+            //     let filename = require('path').join(baseDir, pathname.substr(-1) === '/' ? pathname + 'index.shtml' : pathname);
 
-                let parser = new ssi(baseDir, baseDir, '/**/*.shtml', true);
+            //     let parser = new ssi(baseDir, baseDir, '/**/*.shtml', true);
 
-                if (filename.indexOf('.shtml') > -1 && fs.existsSync(filename)) {
-                    res.end(parser.parse(filename, fs.readFileSync(filename, {
-                        encoding: 'utf8'
-                    })).contents);
-                } else {
-                    next();
-                }
+            //     if (filename.indexOf('.shtml') > -1 && fs.existsSync(filename)) {
+            //         res.end(parser.parse(filename, fs.readFileSync(filename, {
+            //             encoding: 'utf8'
+            //         })).contents);
+            //     } else {
+            //         next();
+            //     }
 
-            }
+            // }
         }
     });
 }
@@ -47,11 +47,11 @@ function webService() {
  * @returns 
  */
 function watchFile() {
-    let watcher = watch(['src/*.*', 'src/**/*.*']);
+    let watcher = watch(['src/*.{shtml,less}', 'src/**/*.{shtml,less}']);
     watcher.on('change', path => {
         src(['src/*.less', 'src/**/*.less'])
-        .pipe(less())
-        .pipe(dest('src/'))
+            .pipe(less())
+            .pipe(dest('src/'))
         browserSync.reload()
     });
 }
