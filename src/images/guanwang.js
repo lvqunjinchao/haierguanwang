@@ -148,26 +148,34 @@ if (width > 1200) {
     // 将swiper和tab选项卡绑定
     $('.js_xinxuan_tab_box ul').on('click', 'li', function(e) {
         // 获取当前索引
-        index = $(this).index();
-        console.log(index);
-        bannerSlider2.goto(index);
         $this = $(this);
+        index = $this.index();
+        bannerSlider2.goto(index);
         $this.find('span').addClass('bg_color_005aaa');
         $this.siblings('li').find('span').removeClass('bg_color_005aaa');
     });
     // 人气排行轮播图
-
-    var paihangbannerSlider = $(".js_paihang_bottom").oSlider({
+    // 注意：xinxuan_bottom上面已经绑定一次了，不可以二次绑定，必须加好完整类提高优先级
+    var index2 = 0;
+    var paihangbannerSlider = $(".js_paihang_bottom.xinxuan_bottom").oSlider({
         loop: true,
         pager: ".js_paihang_banner",
         pagerHover: false,
-        speed: 3000,
-        startFn: function() {
-            console.log("开始");
-        },
-        playFn: function() {
-            console.log("play");
+        // speed: 3000,
+        startFn: function() {},
+        playFn: function(p) {
+            console.log(p.i);
+            $('.js_xinxuan_tab_box.paihang_tab_box ul li').eq(p.i).find('span').addClass('bg_color_005aaa');
+            $('.js_xinxuan_tab_box.paihang_tab_box ul li').eq(p.i).siblings('li').find('span').removeClass('bg_color_005aaa');
+
         }
     });
     paihangbannerSlider.init();
+    $('.js_xinxuan_tab_box.paihang_tab_box ul').on('click', 'li', function() {
+        $this = $(this);
+        index2 = $this.index();
+        console.log(index2);
+        paihangbannerSlider.goto(index2);
+
+    });
 }

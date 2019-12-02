@@ -465,9 +465,9 @@
                 <div class="xinxuan_bottom paihang_bottom js_paihang_bottom relative">
                     <div class="showbox">
                         <ul class="o_g">
-                            <li class="o_g tabboxPaihang js_tabboxPaihang o_cur">
-                                <ul class="o_g content xinxuan_box paihang_box">
-                                    <li class="o_u o_df_1-3 o_xs_2-2 paihang_item">
+                            <li class="o_g tabboxPaihang js_tabboxPaihang o_u o_df_2-2 ">
+                                <div class="o_g content xinxuan_box paihang_box">
+                                    <div class="o_u o_df_1-3 o_xs_2-2 paihang_item">
                                         <div class="paihang_pro curph_0">
                                             <a href="javascript:;">
                                                 <div class="paihang_img">
@@ -481,8 +481,8 @@
                                                 <div class="paihang_icon icon_1"></div>
                                             </a>
                                         </div>
-                                    </li>
-                                    <li class="o_u o_df_1-3 o_xs_2-2 paihang_item">
+                                    </div>
+                                    <div class="o_u o_df_1-3 o_xs_2-2 paihang_item">
                                         <div class="paihang_pro curph_0">
                                             <a href="javascript:;">
                                                 <div class="paihang_img">
@@ -496,8 +496,8 @@
                                                 <div class="paihang_icon icon_2"></div>
                                             </a>
                                         </div>
-                                    </li>
-                                    <li class="o_u o_df_1-3 o_xs_2-2 paihang_item">
+                                    </div>
+                                    <div class="o_u o_df_1-3 o_xs_2-2 paihang_item">
                                         <div class="paihang_pro curph_0">
                                             <a href="javascript:;">
                                                 <div class="paihang_img">
@@ -511,8 +511,302 @@
                                                 <div class="paihang_icon icon_3"></div>
                                             </a>
                                         </div>
-                                    </li>
-                                </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="o_g tabboxPaihang js_tabboxPaihang o_u o_df_2-2">
+                                <div class="o_g content xinxuan_box paihang_box">
+                                    <div class="o_u o_df_1-3 o_xs_2-2 paihang_item">
+                                        <div class="paihang_pro curph_0">
+                                            <a href="javascript:;">
+                                                <div class="paihang_img">
+                                                    <img src="./images/ia_100000035.png" alt="">
+                                                </div>
+                                                <div class="paihang_right">
+                                                    <div class="paihang_name">329升风冷变频多门冰箱</div>
+                                                    <div class="paihang_xinghao">BCD-329WDVL</div>
+                                                </div>
+                                                <div class="paihang_ling">了解更多</div>
+                                                <div class="paihang_icon icon_1"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="o_u o_df_1-3 o_xs_2-2 paihang_item">
+                                        <div class="paihang_pro curph_0">
+                                            <a href="javascript:;">
+                                                <div class="paihang_img">
+                                                    <img src="./images/ia_100000040.png" alt="">
+                                                </div>
+                                                <div class="paihang_right">
+                                                    <div class="paihang_name">471升风冷变频十字对开门冰箱</div>
+                                                    <div class="paihang_xinghao">NEWAOCN-SDMF</div>
+                                                </div>
+                                                <div class="paihang_ling">了解更多</div>
+                                                <div class="paihang_icon icon_2"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="o_u o_df_1-3 o_xs_2-2 paihang_item">
+                                        <div class="paihang_pro curph_0">
+                                            <a href="javascript:;">
+                                                <div class="paihang_img">
+                                                    <img src="./images/ia_100000030.png" alt="">
+                                                </div>
+                                                <div class="paihang_right">
+                                                    <div class="paihang_name">576升风冷变频对开门冰箱</div>
+                                                    <div class="paihang_xinghao">AUSFNAWEN-SDF</div>
+                                                </div>
+                                                <div class="paihang_ling">了解更多</div>
+                                                <div class="paihang_icon icon_3"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="o_g tabboxPaihang js_tabboxPaihang o_u o_df_2-2">
+                                <div class="o_g content xinxuan_box paihang_box">
+                                    <div class="o_u o_df_1-3 o_xs_2-2 paihang_item">
+                                        <div class="paihang_pro curph_0">
+                                            <a href="javascript:;">
+                                                <div class="paihang_img">
+                                                    <img src="./images/ia_100000035.png" alt="">
+                                                </div>
+                                                <div class="paihang_right">
+                                                    <div class="paihang_name">329升风冷变频多门冰箱</div>
+                                                    <div class="paihang_xinghao">BCD-329WDVL</div>
+                                                </div>
+                                                <div class="paihang_ling">了解更多</div>
+                                                <div class="paihang_icon icon_1"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="o_u o_df_1-3 o_xs_2-2 paihang_item">
+                                        <div class="paihang_pro curph_0">
+                                            <a href="javascript:;">
+                                                <div class="paihang_img">
+                                                    <img src="./images/ia_100000040.png" alt="">
+                                                </div>
+                                                <div class="paihang_right">
+                                                    <div class="paihang_name">471升风冷变频十字对开门冰箱</div>
+                                                    <div class="paihang_xinghao">NEWAOCN-SDMF</div>
+                                                </div>
+                                                <div class="paihang_ling">了解更多</div>
+                                                <div class="paihang_icon icon_2"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="o_u o_df_1-3 o_xs_2-2 paihang_item">
+                                        <div class="paihang_pro curph_0">
+                                            <a href="javascript:;">
+                                                <div class="paihang_img">
+                                                    <img src="./images/ia_100000030.png" alt="">
+                                                </div>
+                                                <div class="paihang_right">
+                                                    <div class="paihang_name">576升风冷变频对开门冰箱</div>
+                                                    <div class="paihang_xinghao">AUSFNAWEN-SDF</div>
+                                                </div>
+                                                <div class="paihang_ling">了解更多</div>
+                                                <div class="paihang_icon icon_3"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="o_g tabboxPaihang js_tabboxPaihang o_u o_df_2-2">
+                                <div class="o_g content xinxuan_box paihang_box">
+                                    <div class="o_u o_df_1-3 o_xs_2-2 paihang_item">
+                                        <div class="paihang_pro curph_0">
+                                            <a href="javascript:;">
+                                                <div class="paihang_img">
+                                                    <img src="./images/ia_100000035.png" alt="">
+                                                </div>
+                                                <div class="paihang_right">
+                                                    <div class="paihang_name">329升风冷变频多门冰箱</div>
+                                                    <div class="paihang_xinghao">BCD-329WDVL</div>
+                                                </div>
+                                                <div class="paihang_ling">了解更多</div>
+                                                <div class="paihang_icon icon_1"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="o_u o_df_1-3 o_xs_2-2 paihang_item">
+                                        <div class="paihang_pro curph_0">
+                                            <a href="javascript:;">
+                                                <div class="paihang_img">
+                                                    <img src="./images/ia_100000040.png" alt="">
+                                                </div>
+                                                <div class="paihang_right">
+                                                    <div class="paihang_name">471升风冷变频十字对开门冰箱</div>
+                                                    <div class="paihang_xinghao">NEWAOCN-SDMF</div>
+                                                </div>
+                                                <div class="paihang_ling">了解更多</div>
+                                                <div class="paihang_icon icon_2"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="o_u o_df_1-3 o_xs_2-2 paihang_item">
+                                        <div class="paihang_pro curph_0">
+                                            <a href="javascript:;">
+                                                <div class="paihang_img">
+                                                    <img src="./images/ia_100000030.png" alt="">
+                                                </div>
+                                                <div class="paihang_right">
+                                                    <div class="paihang_name">576升风冷变频对开门冰箱</div>
+                                                    <div class="paihang_xinghao">AUSFNAWEN-SDF</div>
+                                                </div>
+                                                <div class="paihang_ling">了解更多</div>
+                                                <div class="paihang_icon icon_3"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="o_g tabboxPaihang js_tabboxPaihang o_u o_df_2-2">
+                                <div class="o_g content xinxuan_box paihang_box">
+                                    <div class="o_u o_df_1-3 o_xs_2-2 paihang_item">
+                                        <div class="paihang_pro curph_0">
+                                            <a href="javascript:;">
+                                                <div class="paihang_img">
+                                                    <img src="./images/ia_100000035.png" alt="">
+                                                </div>
+                                                <div class="paihang_right">
+                                                    <div class="paihang_name">329升风冷变频多门冰箱</div>
+                                                    <div class="paihang_xinghao">BCD-329WDVL</div>
+                                                </div>
+                                                <div class="paihang_ling">了解更多</div>
+                                                <div class="paihang_icon icon_1"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="o_u o_df_1-3 o_xs_2-2 paihang_item">
+                                        <div class="paihang_pro curph_0">
+                                            <a href="javascript:;">
+                                                <div class="paihang_img">
+                                                    <img src="./images/ia_100000040.png" alt="">
+                                                </div>
+                                                <div class="paihang_right">
+                                                    <div class="paihang_name">471升风冷变频十字对开门冰箱</div>
+                                                    <div class="paihang_xinghao">NEWAOCN-SDMF</div>
+                                                </div>
+                                                <div class="paihang_ling">了解更多</div>
+                                                <div class="paihang_icon icon_2"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="o_u o_df_1-3 o_xs_2-2 paihang_item">
+                                        <div class="paihang_pro curph_0">
+                                            <a href="javascript:;">
+                                                <div class="paihang_img">
+                                                    <img src="./images/ia_100000030.png" alt="">
+                                                </div>
+                                                <div class="paihang_right">
+                                                    <div class="paihang_name">576升风冷变频对开门冰箱</div>
+                                                    <div class="paihang_xinghao">AUSFNAWEN-SDF</div>
+                                                </div>
+                                                <div class="paihang_ling">了解更多</div>
+                                                <div class="paihang_icon icon_3"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="o_g tabboxPaihang js_tabboxPaihang o_u o_df_2-2">
+                                <div class="o_g content xinxuan_box paihang_box">
+                                    <div class="o_u o_df_1-3 o_xs_2-2 paihang_item">
+                                        <div class="paihang_pro curph_0">
+                                            <a href="javascript:;">
+                                                <div class="paihang_img">
+                                                    <img src="./images/ia_100000035.png" alt="">
+                                                </div>
+                                                <div class="paihang_right">
+                                                    <div class="paihang_name">329升风冷变频多门冰箱</div>
+                                                    <div class="paihang_xinghao">BCD-329WDVL</div>
+                                                </div>
+                                                <div class="paihang_ling">了解更多</div>
+                                                <div class="paihang_icon icon_1"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="o_u o_df_1-3 o_xs_2-2 paihang_item">
+                                        <div class="paihang_pro curph_0">
+                                            <a href="javascript:;">
+                                                <div class="paihang_img">
+                                                    <img src="./images/ia_100000040.png" alt="">
+                                                </div>
+                                                <div class="paihang_right">
+                                                    <div class="paihang_name">471升风冷变频十字对开门冰箱</div>
+                                                    <div class="paihang_xinghao">NEWAOCN-SDMF</div>
+                                                </div>
+                                                <div class="paihang_ling">了解更多</div>
+                                                <div class="paihang_icon icon_2"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="o_u o_df_1-3 o_xs_2-2 paihang_item">
+                                        <div class="paihang_pro curph_0">
+                                            <a href="javascript:;">
+                                                <div class="paihang_img">
+                                                    <img src="./images/ia_100000030.png" alt="">
+                                                </div>
+                                                <div class="paihang_right">
+                                                    <div class="paihang_name">576升风冷变频对开门冰箱</div>
+                                                    <div class="paihang_xinghao">AUSFNAWEN-SDF</div>
+                                                </div>
+                                                <div class="paihang_ling">了解更多</div>
+                                                <div class="paihang_icon icon_3"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="o_g tabboxPaihang js_tabboxPaihang o_u o_df_2-2">
+                                <div class="o_g content xinxuan_box paihang_box">
+                                    <div class="o_u o_df_1-3 o_xs_2-2 paihang_item">
+                                        <div class="paihang_pro curph_0">
+                                            <a href="javascript:;">
+                                                <div class="paihang_img">
+                                                    <img src="./images/ia_100000035.png" alt="">
+                                                </div>
+                                                <div class="paihang_right">
+                                                    <div class="paihang_name">329升风冷变频多门冰箱</div>
+                                                    <div class="paihang_xinghao">BCD-329WDVL</div>
+                                                </div>
+                                                <div class="paihang_ling">了解更多</div>
+                                                <div class="paihang_icon icon_1"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="o_u o_df_1-3 o_xs_2-2 paihang_item">
+                                        <div class="paihang_pro curph_0">
+                                            <a href="javascript:;">
+                                                <div class="paihang_img">
+                                                    <img src="./images/ia_100000040.png" alt="">
+                                                </div>
+                                                <div class="paihang_right">
+                                                    <div class="paihang_name">471升风冷变频十字对开门冰箱</div>
+                                                    <div class="paihang_xinghao">NEWAOCN-SDMF</div>
+                                                </div>
+                                                <div class="paihang_ling">了解更多</div>
+                                                <div class="paihang_icon icon_2"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="o_u o_df_1-3 o_xs_2-2 paihang_item">
+                                        <div class="paihang_pro curph_0">
+                                            <a href="javascript:;">
+                                                <div class="paihang_img">
+                                                    <img src="./images/ia_100000030.png" alt="">
+                                                </div>
+                                                <div class="paihang_right">
+                                                    <div class="paihang_name">576升风冷变频对开门冰箱</div>
+                                                    <div class="paihang_xinghao">AUSFNAWEN-SDF</div>
+                                                </div>
+                                                <div class="paihang_ling">了解更多</div>
+                                                <div class="paihang_icon icon_3"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
                             </li>
                         </ul>
                     </div>
@@ -521,6 +815,165 @@
                 </div>
             </div>
             <!-- 人气排行 end -->
+
+            <!-- 活动集结地 start -->
+            <div class="o_g active ">
+                <div class="content relative">
+                    <div class="active_body active_left">
+                        <div class="active_msg">
+                            <div class="active_title">全屋购</div>
+                            <div class="active_main">旗舰品质，一站购齐！当你踏进家门的一刻，生活变得更智慧，一键开启空调、电视、扫地机器人，回家即是安心。</div>
+                        </div>
+                        <div class="active_img relative">
+                            <img src="./images/ia_100001989.jpg" alt="">
+                            <div class="active_line"></div>
+                        </div>
+                        <div class="active_line"></div>
+                    </div>
+                    <div class="active_body active_right">
+                        <div class="active_msg">
+                            <div class="active_title">活动集结地</div>
+                            <div class="active_main">玩转好家电，超值不败家！家电活动，限时抢疯狂购！现在下手还不晚！</div>
+                        </div>
+                        <div class="active_img relative">
+                            <img src="./images/ia_100001991.jpg" alt="">
+                            <div class="active_line"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 活动集结地 end -->
+
+            <!-- 品牌故事 start -->
+            <div class="o_g story">
+                <div class="story_box">
+                    <div class="content">
+                        <div class="story_title">品牌故事</div>
+                        <div class="story_msg">
+                            三十多年来，海尔与时俱进，从产品品牌到平台品牌，始终站在时代与行业发展前列。物联网时代， <br> 海尔生态品牌将持续为全球用户创造美好生活体验，成为全球生态品牌引领者。
+                        </div>
+                        <div class="video_box">这是视频</div>
+                    </div>
+                </div>
+            </div>
+            <!-- 视频暂时先不写 -->
+            <!-- 品牌故事 end -->
+
+            <!-- 新闻 start -->
+            <div class="o_g news">
+                <div class="content">
+                    <div class="news_title">
+                        品牌资讯
+                    </div>
+                    <div class="o_g news_main">
+                        <div class="o_u news_left o_df-left o_xs_2-2">
+                            <div class="news_details relative">
+                                <a href="javascript:;">
+                                    <div class="detail_img">
+                                        <img src="./images/ia_100001928.jpg" alt="">
+                                    </div>
+                                    <div class="detail_title">
+                                        首届世界5G大会：央视聚焦海尔，海尔聚焦5G
+                                    </div>
+                                    <div class="detail_msg">
+                                        11月20日至23日，首届世界5G大会在北京举行，5G智能制造、智慧城市、智慧交通等5G+行业应用纷纷亮相。海尔COSMOPlat作为全球领先的工业互联网平台，在大会期间...
+                                    </div>
+                                    <div class="detail_line">
+                                        <span class="trans_line"></span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="o_u news_right o_df-right o_xs_2-2">
+                            <div class="news_top o_xs-hide"></div>
+                            <div class="news_list">
+                                <div class="news_details relative">
+                                    <a href="javascript:;">
+                                        <div class="detail_title">海尔“能效之星”：需要的少，给予的多</div>
+                                        <div class="detail_msg">
+                                            11月22日，国家工信部公布了2019年度“能效之星”产品目录，海尔有4款空调产品，5款冷柜产品上榜。这些海尔“能效之星”，需要的能耗很少，但是能为用户带来的智慧生活场景体验却很多。
+                                        </div>
+                                        <div class="detail_line">
+                                            <span class="trans_line"></span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="news_details relative">
+                                    <a href="javascript:;">
+                                        <div class="detail_title">海尔“能效之星”：需要的少，给予的多</div>
+                                        <div class="detail_msg">
+                                            11月22日，国家工信部公布了2019年度“能效之星”产品目录，海尔有4款空调产品，5款冷柜产品上榜。这些海尔“能效之星”，需要的能耗很少，但是能为用户带来的智慧生活场景体验却很多。
+                                        </div>
+                                        <div class="detail_line">
+                                            <span class="trans_line"></span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="news_details relative">
+                                    <a href="javascript:;">
+                                        <div class="detail_title">海尔“能效之星”：需要的少，给予的多</div>
+                                        <div class="detail_msg">
+                                            11月22日，国家工信部公布了2019年度“能效之星”产品目录，海尔有4款空调产品，5款冷柜产品上榜。这些海尔“能效之星”，需要的能耗很少，但是能为用户带来的智慧生活场景体验却很多。
+                                        </div>
+                                        <div class="detail_line">
+                                            <span class="trans_line"></span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="news_more"><a href="javascript:;">更多</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 新闻 end -->
+
+            <!-- 链接 start -->
+            <div class="o_g link">
+                <div class="content">
+                    <div class="link_title">品牌链接</div>
+                    <div class="link_img">
+                        <div class="o_g link_box o_df-show o_xs-hide">
+                            <div class="o_u link_grid sd_item">
+                                <a href="javascript:;">
+                                    <img src="./images/link1.png" alt="">
+                                </a>
+                            </div>
+                            <div class="o_u link_grid sd_item">
+                                <a href="javascript:;">
+                                    <img src="./images/link2.png" alt="">
+                                </a>
+                            </div>
+                            <div class="o_u link_grid sd_item">
+                                <a href="javascript:;">
+                                    <img src="./images/link3.png" alt="">
+                                </a>
+                            </div>
+                            <div class="o_u link_grid sd_item">
+                                <a href="javascript:;">
+                                    <img src="./images/link4.png" alt="">
+                                </a>
+                            </div>
+                            <div class="o_u link_grid sd_item">
+                                <a href="javascript:;">
+                                    <img src="./images/link5.png" alt="">
+                                </a>
+                            </div>
+                            <div class="o_u link_grid sd_item">
+                                <a href="javascript:;">
+                                    <img src="./images/link6.png" alt="">
+                                </a>
+                            </div>
+                            <div class="o_u link_grid sd_item">
+                                <a href="javascript:;">
+                                    <img src="./images/link7.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 链接 end -->
 
             <!-- 尾部start -->
             <!--#include virtual="footer.shtml"-->
