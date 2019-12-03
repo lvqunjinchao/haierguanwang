@@ -26,6 +26,24 @@
   border-bottom: 0.06rem solid #005aaa !important;
   color: #005aaa !important;
 }
+.color_0c5ca8 {
+  color: #0c5ca8 !important;
+}
+.border_top999 {
+  border-top: 1px solid #999 !important;
+}
+.boxlayer {
+  width: 100%;
+  height: 100%;
+  background: #111;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 200;
+}
 .header2019 {
   width: 100%;
   height: 70px;
@@ -64,11 +82,11 @@
 }
 .header2019 .nav .box.box_xiao .left {
   min-width: 180px;
-  height: 450px!important;
+  height: 450px;
 }
 .header2019 .nav .box.box_xiao .left .content {
-  width: 540px!important;
-  height: 450px!important;
+  width: 540px;
+  height: 450px;
   padding: 0;
 }
 .header2019 .nav .box.box_xiao .left .content .title {
@@ -126,6 +144,7 @@
 .header2019 .box {
   display: inline-block;
   padding: 0 0.3rem;
+  width: auto;
   position: relative;
   height: 70px;
 }
@@ -154,8 +173,8 @@
   margin-left: 1px;
 }
 .header2019 .box .left li .content {
-  width: 280px!important;
-  height: 150px!important;
+  width: 280px;
+  height: 150px;
   background-color: #fff;
   position: absolute;
   top: 0;
@@ -371,7 +390,7 @@ a {
   margin: 0 auto;
   overflow: hidden;
   position: relative;
-  height: 421px;
+  height: 5.1rem;
   /*需要分页自定义css*/
   /*需要左右箭头自定义css*/
 }
@@ -1029,7 +1048,7 @@ a {
 .news .news_details:hover .trans_line {
   transform: translateX(70%);
 }
-.news .news_details:hover img {
+.news .detail_img:hover img {
   transform: scale(1.1);
 }
 .news .news_details:hover .detail_msg {
@@ -1172,4 +1191,104 @@ a {
 }
 .link .content .link_img .link_box .link_grid a:hover {
   background: url(./white.png) top center no-repeat;
+}
+@media screen and (min-width: 751px) and (max-width: 1200px) {
+  .header2019 {
+    height: 50px;
+    position: relative;
+    z-index: 1001;
+  }
+  .header2019 .warp {
+    height: 100%;
+  }
+  .header2019 .warp .i_menu {
+    height: 50px;
+    line-height: 50px;
+    opacity: 0.5;
+  }
+  .header2019 .warp .i_menu .i_box {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+  }
+  .header2019 .warp .i_menu .i_box .iconfont {
+    color: #0c5ca8;
+    line-height: 50px;
+    font-size: 24px;
+  }
+  .header2019 .warp .center {
+    height: 100%;
+    text-align: center;
+    line-height: 50px;
+  }
+  .header2019 .warp .user {
+    height: 50px;
+    line-height: 50px;
+  }
+  .header2019 .warp .user .iconfont {
+    line-height: 50px;
+    color: #0c5ca8;
+  }
+  .header2019 .warp .tools .search i {
+    position: static;
+    color: #0c5ca8;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  .header2019 .warp .nav {
+    margin: 0;
+    position: absolute;
+    top: 51px;
+    left: 0;
+    width: 100%;
+    display: none;
+    background: #fff;
+  }
+  .header2019 .warp .nav .open_close {
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    width: 50px;
+  }
+  .header2019 .warp .nav .open_close i {
+    display: inline-block;
+    font-size: 24px;
+  }
+  .header2019 .warp .nav .box {
+    width: 100%;
+    min-height: 50px;
+    padding: 0;
+    margin: 0;
+    height: auto;
+  }
+  .header2019 .warp .nav .box a {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 0.24rem;
+  }
+  .header2019 .warp .nav .box span {
+    font-size: 0.3rem;
+    line-height: 50px;
+    padding: 0 15px;
+  }
+  .header2019 .warp .nav .box span i {
+    display: inline-block;
+    font-size: 24px;
+  }
+  .header2019 .warp .nav .box .list {
+    top: 0;
+    position: relative;
+    left: 0;
+  }
+  .header2019 .warp .nav .box .content span {
+    font-size: 0.24rem !important;
+  }
+  .header2019 .warp .nav .box.box_dan .list {
+    min-width: 140px;
+    width: 100%;
+    background: #f6f6f6;
+    left: 0;
+    box-shadow: none;
+  }
 }

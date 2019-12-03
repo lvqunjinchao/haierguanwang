@@ -26,6 +26,10 @@
             <!-- 头部start -->
             <!--#include virtual="header.shtml"-->
             <!-- 头部end -->
+            <!-- 遮罩层 start -->
+            <div class="boxlayer js_boxlayer displaynone "></div>
+            <!-- 遮罩层 end -->
+
 
             <!--轮播图 start-->
             <div class="banner js_banner o_g">

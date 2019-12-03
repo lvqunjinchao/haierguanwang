@@ -1,16 +1,25 @@
 <div class="header2019 relative">
     <div class="warp o_g">
-        <div class="o_g o_u o_df_9-12 o_xs_2-2 o_md_2-2">
-            <div class="o_u o_xs_1-3 o_md_1-3 center">
+        <div class="o_g o_u o_df-hide o_md_1-3 o_md-inlineblock i_menu js_imenu">
+            <span class="i_box">
+                <i class="iconfont iconmenu"></i>
+            </span>
+        </div>
+        <div class="o_g o_u o_df_9-12 o_xs_2-2 o_md_1-3 js_center_box">
+            <div class="o_u o_xs_1-3 o_md_3-3 center">
                 <a href="javascript:;">
                     <img src="./images/ia_100000000.png" alt="" class="logo">
                 </a>
             </div>
             <div class="nav js_m_nav sd_nav">
-                <div class="box box_dan relative">
-                    <span>智慧家庭</span>
+                <div class="box box_dan relative o_g">
+                    <span class="little_tittle">智慧家庭 <i class="displaynone"> ></i></span>
+                    <span class="open_close o_df-hide o_md-inlineblock o_md-right">
+                            <i class="iconfont iconshouji1"></i>
+                            <i class="iconfont iconshouji- displaynone"></i>
+                        </span>
                     <div class="list">
-                        <p class="hover_line"></p>
+                        <p class="hover_line o_md-hide"></p>
                         <a href="javascript:;">智慧首页</a>
                         <a href="javascript:;">智家方案</a>
                         <a href="javascript:;">智慧家电</a>
@@ -18,15 +27,19 @@
                         <a href="javascript:;">智慧体验店</a>
                     </div>
                 </div>
-                <div class="box box_xiao js_box_buy relative">
-                    <span>个人与家用产品</span>
+                <div class="box box_xiao js_box_buy relative o_g">
+                    <span class="little_tittle">个人与家用产品 <i class="displaynone"> ></i></span>
+                    <span class="open_close o_df-hide o_md-inlineblock o_md-right">
+                            <i class="iconfont iconshouji1"></i>
+                            <i class="iconfont iconshouji- displaynone"></i>
+                        </span>
                     <ul class="left js_left">
-                        <p class="hover_line"></p>
-                        <li class="">
-                            <i class="iconfont iconbingxiang"></i>
+                        <p class="hover_line o_md-hide"></p>
+                        <li class="border_top999">
+                            <i class="iconfont iconbingxiang o_md-hide"></i>
                             <a href="javascript:;">冰箱</a>
                             <a href="javascript:;">冷柜</a>
-                            <div class="content o_g displaynone">
+                            <div class="content js_content o_g border_top999">
                                 <div class="not-hide">
                                     <a href="javasccript:;" class="title">冰箱</a>
                                     <div class="content_detail">
@@ -45,7 +58,7 @@
                                         <span>十字开门</span>
                                     </div>
                                 </div>
-                                <div class="content_bottom">
+                                <div class="content_bottom o_md-hide">
                                     <img src="./images/ia_100000008.jpg" alt="">
                                     <div class="bottom_right">
                                         <p class="title2">海尔智慧家庭</p>
@@ -56,10 +69,10 @@
                             </div>
                         </li>
                         <li class="">
-                            <i class="iconfont iconbingbajiugui"></i>
+                            <i class="iconfont iconbingbajiugui o_md-hide"></i>
                             <a href="javascript:;">冰吧</a>
                             <a href="javascript:;">酒柜</a>
-                            <div class="content o_g displaynone">
+                            <div class="content js_content o_g displaynone border_top999">
                                 <div class="not-hide">
                                     <a href="javasccript:;" class="title">冰吧</a>
                                     <div class="content_detail">
@@ -78,7 +91,7 @@
                                         <span>十字开门</span>
                                     </div>
                                 </div>
-                                <div class="content_bottom">
+                                <div class="content_bottom o_md-hide">
                                     <img src="./images/ia_100000008.jpg" alt="">
                                     <div class="bottom_right">
                                         <p class="title2">海尔智慧家庭</p>
@@ -89,9 +102,9 @@
                             </div>
                         </li>
                         <li class="">
-                            <i class="iconfont iconxiyiji"></i>
+                            <i class="iconfont iconxiyiji o_md-hide"></i>
                             <a href="javascript:;">洗衣机</a>
-                            <div class="content o_g displaynone">
+                            <div class="content js_content o_g displaynone border_top999">
                                 <div class="not-hide">
                                     <a href="javasccript:;" class="title">洗衣机</a>
                                     <div class="content_detail">
@@ -103,7 +116,7 @@
                                         <span>单门</span>
                                     </div>
                                 </div>
-                                <div class="content_bottom">
+                                <div class="content_bottom o_md-hide">
                                     <img src="./images/ia_100000008.jpg" alt="">
                                     <div class="bottom_right">
                                         <p class="title2">海尔智慧家庭</p>
@@ -114,9 +127,9 @@
                             </div>
                         </li>
                         <li class="">
-                            <i class="iconfont iconkongtiao"></i>
+                            <i class="iconfont iconkongtiao o_md-hide"></i>
                             <a href="javascript:;">空调</a>
-                            <div class="content o_g displaynone">
+                            <div class="content js_content o_g displaynone border_top999">
                                 <div class="not-hide">
                                     <a href="javasccript:;" class="title">空调</a>
                                     <div class="content_detail">
@@ -128,7 +141,7 @@
                                         <span>单门</span>
                                     </div>
                                 </div>
-                                <div class="content_bottom">
+                                <div class="content_bottom o_md-hide">
                                     <img src="./images/ia_100000008.jpg" alt="">
                                     <div class="bottom_right">
                                         <p class="title2">海尔智慧家庭</p>
@@ -139,9 +152,9 @@
                             </div>
                         </li>
                         <li class="">
-                            <i class="iconfont icondianshi"></i>
+                            <i class="iconfont icondianshi o_md-hide"></i>
                             <a href="javascript:;">电视</a>
-                            <div class="content o_g displaynone">
+                            <div class="content js_content o_g displaynone border_top999">
                                 <div class="not-hide">
                                     <a href="javasccript:;" class="title">电视</a>
                                     <div class="content_detail">
@@ -153,7 +166,7 @@
                                         <span>单门</span>
                                     </div>
                                 </div>
-                                <div class="content_bottom">
+                                <div class="content_bottom o_md-hide">
                                     <img src="./images/ia_100000008.jpg" alt="">
                                     <div class="bottom_right">
                                         <p class="title2">海尔智慧家庭</p>
@@ -164,9 +177,9 @@
                             </div>
                         </li>
                         <li class="">
-                            <i class="iconfont iconreshuiqi"></i>
+                            <i class="iconfont iconreshuiqi o_md-hide"></i>
                             <a href="javascript:;">热水器</a>
-                            <div class="content o_g displaynone">
+                            <div class="content js_content o_g displaynone border_top999">
                                 <div class="not-hide">
                                     <a href="javasccript:;" class="title">热水器</a>
                                     <div class="content_detail">
@@ -178,7 +191,7 @@
                                         <span>单门</span>
                                     </div>
                                 </div>
-                                <div class="content_bottom">
+                                <div class="content_bottom o_md-hide">
                                     <img src="./images/ia_100000008.jpg" alt="">
                                     <div class="bottom_right">
                                         <p class="title2">海尔智慧家庭</p>
@@ -189,9 +202,9 @@
                             </div>
                         </li>
                         <li class="">
-                            <i class="iconfont iconchufangxiaojiadian"></i>
+                            <i class="iconfont iconchufangxiaojiadian o_md-hide"></i>
                             <a href="javascript:;">厨房电器</a>
-                            <div class="content o_g displaynone">
+                            <div class="content js_content o_g displaynone border_top999">
                                 <div class="not-hide">
                                     <a href="javasccript:;" class="title">厨房电器</a>
                                     <div class="content_detail">
@@ -203,7 +216,7 @@
                                         <span>单门</span>
                                     </div>
                                 </div>
-                                <div class="content_bottom">
+                                <div class="content_bottom o_md-hide">
                                     <img src="./images/ia_100000008.jpg" alt="">
                                     <div class="bottom_right">
                                         <p class="title2">海尔智慧家庭</p>
@@ -214,9 +227,9 @@
                             </div>
                         </li>
                         <li class="">
-                            <i class="iconfont icongehuxiaojiadian"></i>
+                            <i class="iconfont icongehuxiaojiadian o_md-hide"></i>
                             <a href="javascript:;">小家电</a>
-                            <div class="content o_g displaynone">
+                            <div class="content js_content o_g displaynone border_top999">
                                 <div class="not-hide">
                                     <a href="javasccript:;" class="title">小家电</a>
                                     <div class="content_detail">
@@ -228,7 +241,7 @@
                                         <span>单门</span>
                                     </div>
                                 </div>
-                                <div class="content_bottom">
+                                <div class="content_bottom o_md-hide">
                                     <img src="./images/ia_100000008.jpg" alt="">
                                     <div class="bottom_right">
                                         <p class="title2">海尔智慧家庭</p>
@@ -239,9 +252,9 @@
                             </div>
                         </li>
                         <li class="">
-                            <i class="iconfont iconquanwujiadiandingzhi"></i>
+                            <i class="iconfont iconquanwujiadiandingzhi o_md-hide"></i>
                             <a href="javascript:;">电脑和外设</a>
-                            <div class="content o_g displaynone">
+                            <div class="content js_content o_g displaynone border_top999">
                                 <div class="not-hide">
                                     <a href="javasccript:;" class="title">电脑和外设</a>
                                     <div class="content_detail">
@@ -253,7 +266,7 @@
                                         <span>单门</span>
                                     </div>
                                 </div>
-                                <div class="content_bottom">
+                                <div class="content_bottom o_md-hide">
                                     <img src="./images/ia_100000008.jpg" alt="">
                                     <div class="bottom_right">
                                         <p class="title2">海尔智慧家庭</p>
@@ -265,10 +278,14 @@
                         </li>
                     </ul>
                 </div>
-                <div class="box box_dan relative">
-                    <span>商业解决方案</span>
+                <div class="box box_dan relative o_g">
+                    <span class="little_tittle">商业解决方案 <i class="displaynone"> ></i></span>
+                    <span class="open_close o_df-hide o_md-inlineblock o_md-right">
+                            <i class="iconfont iconshouji1"></i>
+                            <i class="iconfont iconshouji- displaynone"></i>
+                        </span>
                     <div class="list">
-                        <p class="hover_line"></p>
+                        <p class="hover_line o_md-hide"></p>
                         <a href="javascript:;">中央空调</a>
                         <a href="javascript:;">商用冷柜</a>
                         <a href="javascript:;">商用洗涤</a>
@@ -279,10 +296,14 @@
                         <a href="javascript:;">商用热泵</a>
                     </div>
                 </div>
-                <div class="box  box_buy js_box_buy relative">
-                    <span>购买与服务</span>
+                <div class="box  box_buy js_box_buy relative o_g">
+                    <span class="little_tittle">购买与服务 <i class="displaynone"> ></i></span>
+                    <span class="open_close o_df-hide o_md-inlineblock o_md-right">
+                            <i class="iconfont iconshouji1"></i>
+                            <i class="iconfont iconshouji- displaynone"></i>
+                        </span>
                     <ul class="left js_left">
-                        <p class="hover_line"></p>
+                        <p class="hover_line o_md-hide"></p>
                         <li class="">购买渠道
                             <div class="content o_g displaynone">
                                 <span class="o_u o_df_1-2">
@@ -336,10 +357,14 @@
                         </li>
                     </ul>
                 </div>
-                <div class="box box_dan relative">
-                    <span>关于海尔</span>
+                <div class="box box_dan relative o_g">
+                    <span class="little_tittle">关于海尔 <i class="displaynone"> ></i></span>
+                    <span class="open_close o_df-hide o_md-inlineblock o_md-right">
+                            <i class="iconfont iconshouji1"></i>
+                            <i class="iconfont iconshouji- displaynone"></i>
+                        </span>
                     <div class="list">
-                        <p class="hover_line"></p>
+                        <p class="hover_line o_md-hide"></p>
                         <a href="javascript:;">海尔集团</a>
                         <a href="javascript:;">海尔品牌</a>
                         <a href="javascript:;">投资者关系</a>
@@ -348,11 +373,11 @@
                 </div>
             </div>
         </div>
-        <div class="o_u o_df_3-12 o_xs-hide o_md-hide">
+        <div class="o_u o_df_3-12 o_md_1-3 o_xs-hide">
             <div class="tools">
                 <div class="search">
                     <i class="iconfont iconsousuo js_searchBtn"></i>
-                    <input type="text">
+                    <input type="text" class="o_md-hide">
                     <div class="result displaynone">
                         <div class="history">
                             <span>最近搜过</span>
@@ -367,7 +392,8 @@
                     </div>
                 </div>
                 <div class="user">
-                    <i class="iconfont iconyonghutouxiang js_goLogin js_noLogin"></i>
+                    <i class="iconfont iconxiaoxi o_df-hide o_md-inlineblock"></i>
+                    <i class="iconfont iconyonghutouxiang js_goLogin js_noLogin o_md-hide"></i>
                     <i class="iconfont iconyonghutouxiang_dengluhou js_hasLogin js_noLogin displaynone"></i>
                 </div>
             </div>

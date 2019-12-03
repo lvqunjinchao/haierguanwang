@@ -35,6 +35,27 @@
     border-bottom: 0.06rem solid #005aaa !important;
     color: #005aaa !important;
 }
+.color_0c5ca8{
+    color: #0c5ca8 !important;
+};
+.border_top999{
+    border-top: 1px solid #999 !important;
+}
+
+// PC端 start
+// 遮罩层
+.boxlayer {
+    width: 100%;
+    height: 100%;
+    background: #111;
+    opacity: .5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 200;
+}
 
 // 头部属性
 .header2019 {
@@ -76,10 +97,10 @@
             }
             .left {
                 min-width: 180px;
-                height: 450px!important;
+                height: 450px;
                 .content {
-                    width: 540px!important;
-                    height: 450px!important;
+                    width: 540px;
+                    height: 450px;
                     padding: 0;
                     .title {
                         padding-left: 30px;
@@ -142,6 +163,7 @@
     .box {
         display: inline-block;
         padding: 0 .3rem;
+        width: auto;
         position: relative;
         height: 70px;
         .left {
@@ -167,8 +189,8 @@
                     margin-left: 1px;
                 }
                 .content {
-                    width: 280px!important;
-                    height: 150px!important;
+                    width: 280px;
+                    height: 150px;
                     background-color: #fff;
                     position: absolute;
                     top: 0;
@@ -400,7 +422,7 @@ a {
     margin: 0 auto;
     overflow: hidden;
     position: relative;
-    height: 421px;
+    height: 5.1rem;
     .pager {
         position: absolute;
         bottom: 0.35rem;
@@ -1031,7 +1053,7 @@ a {
     }
 }
 
-// 新闻
+// 新闻资讯
 .news {
     .content {
         max-width: 1230px;
@@ -1070,7 +1092,7 @@ a {
     .news_details:hover .trans_line {
         transform: translateX(70%);
     }
-    .news_details:hover img {
+    .detail_img:hover img {
         transform: scale(1.1);
     }
     .news_details:hover .detail_msg {
@@ -1211,7 +1233,7 @@ a {
                     a:hover img {
                         transform: scale(1.1);
                     }
-                    a:hover{
+                    a:hover {
                         background: url(./white.png) top center no-repeat;
                     }
                 }
@@ -1219,3 +1241,111 @@ a {
         }
     }
 }
+
+// PC端 end
+// Pad端 start
+@media screen and (min-width:751px) and (max-width:1200px) {
+    // Pad头部
+    .header2019 {
+        height: 50px;
+        position: relative;
+        z-index: 1001;
+        .warp {
+            height: 100%;
+            .i_menu {
+                height: 50px;
+                line-height: 50px;
+                opacity: .5;
+                .i_box {
+                    display: inline-block;
+                    height: 50px;
+                    width: 50px;
+                    .iconfont {
+                        color: #0c5ca8;
+                        line-height: 50px;
+                        font-size: 24px;
+                    }
+                }
+            }
+            .center {
+                height: 100%;
+                text-align: center;
+                line-height: 50px;
+            }
+            .user {
+                height: 50px;
+                line-height: 50px;
+                .iconfont {
+                    line-height: 50px;
+                    color: #0c5ca8;
+                }
+            }
+            .tools .search i {
+                position: static;
+                color: #0c5ca8;
+                font-size: 24px;
+                cursor: pointer;
+            } // Pad 头部导航栏
+            .nav {
+                margin: 0;
+                position: absolute;
+                top: 51px;
+                left: 0;
+                width: 100%;
+                display: none;
+                background: #fff;
+                .open_close{
+                    text-align: center;
+                    height: 50px;
+                    line-height: 50px;
+                    width: 50px;
+                    i{
+                        display: inline-block;
+                        font-size: 24px;
+                    }
+                }
+                .box {
+                    width: 100%;
+                    min-height: 50px;
+                    padding: 0;
+                    margin: 0;
+                    height: auto;
+                    a {
+                        width: 100%;
+                        height: 40px;
+                        line-height: 40px;
+                        font-size: .24rem;
+                    }
+                    span {
+                        font-size: .3rem;
+                        line-height: 50px;
+                        padding: 0 15px;
+                        i{
+                            display: inline-block;
+                            font-size: 24px;
+                        }
+                    }
+                    .list {
+                        top: 0;
+                        position: relative;
+                        left: 0;
+                    }
+                    .content{
+                        span{
+                            font-size: .24rem !important;
+                        }
+                    }
+                }
+                .box.box_dan .list {
+                    min-width: 140px;
+                    width: 100%;
+                    background: #f6f6f6;
+                    left: 0;
+                    box-shadow: none;
+                }
+            }
+        }
+    }
+}
+
+// Pad端 end
