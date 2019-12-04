@@ -18,12 +18,12 @@ bannerSlider.init();
 
 // 头部轮播图
 $('.js_banner').on('mouseenter', function() {
-    $this = $(this);
+    var $this = $(this);
     $this.find('.btn_prev').removeClass('displaynone');
     $this.find('.btn_next').removeClass('displaynone');
 });
 $('.js_banner').on('mouseleave', function() {
-    $this = $(this);
+    var $this = $(this);
     $this.find('.btn_prev').addClass('displaynone');
     $this.find('.btn_next').addClass('displaynone');
 });
@@ -51,7 +51,7 @@ $('.btn_prev').addClass('displaynone');
 $('.btn_next').addClass('displaynone');
 // 爆款商品轮播图
 $('.js_star_banner').on('mouseenter', function() {
-    $this = $(this);
+    var $this = $(this);
     $this.find('.btn_prev').removeClass('displaynone');
     $this.find('.btn_next').removeClass('displaynone');
 });
@@ -82,7 +82,7 @@ bannerSlider2.init();
 // 将swiper和tab选项卡绑定
 $('.js_xinxuan_tab_box ul').on('click', 'li', function(e) {
     // 获取当前索引
-    $this = $(this);
+    var $this = $(this);
     index = $this.index();
     bannerSlider2.goto(index);
     $this.find('span').addClass('bg_color_005aaa');
@@ -106,7 +106,7 @@ var paihangbannerSlider = $(".js_paihang_bottom.xinxuan_bottom").oSlider({
 });
 paihangbannerSlider.init();
 $('.js_xinxuan_tab_box.paihang_tab_box ul').on('click', 'li', function() {
-    $this = $(this);
+    var $this = $(this);
     index2 = $this.index();
     console.log(index2);
     paihangbannerSlider.goto(index2);
@@ -116,10 +116,17 @@ $('.js_xinxuan_tab_box.paihang_tab_box ul').on('click', 'li', function() {
 
 // 判断屏幕尺寸
 var width = innerWidth;
+var height = innerHeight;
 console.log(width);
+console.log(height);
 if (width > 1200) {
+    height = height + 'px';
+    // 头部之下轮播图 start
+    $('.star .star_banner li').css('height', height);
+    // 头部之下轮播图 end
+
     $(".search input").on("click", function(e) {
-        $this = $(this);
+        var $this = $(this);
         $this.siblings('.result').removeClass('displaynone');
 
         $(document).one("click", function() {
@@ -165,22 +172,22 @@ if (width > 1200) {
     });
     // 头部头像
     $('.user').on('mouseenter', 'i', function() {
-        $this = $(this);
+        var $this = $(this);
         $this.addClass('displaynone');
         $this.siblings('i').removeClass('displaynone');
     });
     $('.user').on('mouseleave', 'i', function() {
-        $this = $(this);
+        var $this = $(this);
         $this.removeClass('displaynone');
         $this.siblings('i').addClass('displaynone');
     });
     // 尾部二维码
     $('.js_weichat').on('mouseenter', function() {
-        $this = $(this);
+        var $this = $(this);
         $this.parents('.js_wechat_box').siblings('.js_sweep_code_box').removeClass('displaynone');
     });
     $('.js_weichat').on('mouseleave', function() {
-        $this = $(this);
+        var $this = $(this);
         $this.parents('.js_wechat_box').siblings('.js_sweep_code_box').addClass('displaynone');
     });
 
@@ -189,7 +196,7 @@ if (width > 1200) {
     $('.js_imenu').on('click', function() {
         $this = $(this);
         var flag = $this.siblings('.js_center_box').find('.js_m_nav').hasClass('displayblock');
-        console.log(flag);
+        // console.log(flag);
         if (!flag) {
             $this.siblings('.js_center_box').find('.js_m_nav').addClass('displayblock');
             $('.js_boxlayer').removeClass('displaynone');
@@ -199,11 +206,11 @@ if (width > 1200) {
             $('.js_boxlayer').addClass('displaynone');
             $('body').css('overflow', 'auto');
         }
-
     });
+
     // 导航部分手风琴 box_dan
     $('.js_m_nav').on('click', '.box_dan', function() {
-        $this = $(this);
+        var $this = $(this);
         var flag = $this.find('.list').hasClass("displayblock");
         if (!flag) {
             $this.find('.list').addClass('displayblock');
@@ -220,33 +227,75 @@ if (width > 1200) {
             $this.find('.iconshouji-').addClass('displaynone');
         }
     });
+
+    // 2.屏幕宽度发生改变的时候执行的函数 start
+    $(window).resize(function() {
+        var $this = $('.js_m_nav .js_box_buy')
+        var flag4 = $this.find('.left').hasClass('displayblock');
+        if (flag4) {
+            var height4 = this.innerHeight;
+            var width4 = this.innerWidth;
+            height4 = (height4 - 100) + "px";
+            width4 = (width4 - 180) + "px";
+            $this.find('.js_left').css('height', height4);
+            $this.find('.js_left .js_content').css('height', height4);
+            $this.find('.js_left .js_content').css('width', width4);
+        } else {
+            return;
+        }
+    });
+    // 2.屏幕宽度发生改变的时候执行的函数 end
+
+
     // 导航部分 box_xiao box_buy 出现
     $('.js_m_nav').on('click', '.js_box_buy', function() {
-        $this = $(this);
+        var $this = $(this);
         var flag3 = $this.find('.left').hasClass('displayblock');
+        // console.log(flag3);
         if (!flag3) {
             $this.siblings('.box').addClass('displaynone');
-            $this.find('.left').addClass('displayblock');
-            var height = innerHeight;
-            height = (height - 100) + "px";
-            var widthli = (width - 180) + "px";
-            $this.find('.left').css('height', height);
-            $this.find('.left .js_content').css('height', height);
-            $this.find('.left .js_content').css('width', widthli);
+            $this.find('.js_left').addClass('displayblock');
+            var height2 = innerHeight;
+            height2 = (height2 - 100) + "px";
+            var widthli = innerWidth;
+            // 每一次点击的时候此li的时候，或者重置页面宽度的时候，需要重新获取宽度来重新计算
+            // 1.点击的时候
+            widthli = (widthli - 180) + "px";
+            $this.find('.js_left').css('height', height2);
+            $this.find('.js_left .js_content').css('height', height2);
+            $this.find('.js_left .js_content').css('width', widthli);
+            $this.find('.little_tittle').addClass('color_0c5ca8');
+            $this.find('.little_tittle i').removeClass('displaynone');
+            $this.find('.iconshouji1').addClass('displaynone');
+            $this.find('.iconshouji-').removeClass('displaynone');
+        } else {
+            $this.siblings('.box').removeClass('displaynone');
+            $this.find('.js_left').removeClass('displayblock');
+            $this.find('.little_tittle').removeClass('color_0c5ca8');
+            $this.find('.little_tittle i').addClass('displaynone');
+            $this.find('.iconshouji1').removeClass('displaynone');
+            $this.find('.iconshouji-').addClass('displaynone');
         }
-        // else {
-        //     $this.siblings('.box').removeClass('displaynone');
-        //     $this.find('.left').removeClass('displayblock');
-        // }
     });
-    // 出现之后的点击更换
-    $('.js_left li:first').addClass('bg_white');
-
-    $('.js_left').on('click', 'li', function() {
-        $this = $(this);
+    // left出现之后的点击更换
+    $('.js_left').on('click', 'li', function(event) {
+        var $this = $(this);
         $this.addClass('bg_white');
         $this.find('.js_content').removeClass('displaynone');
         $this.siblings('li').find('.js_content').addClass('displaynone');
         $this.siblings('li').removeClass('bg_white');
+        $this.find('.li_line').removeClass('displaynone');
+        $this.siblings('li').find('.li_line').addClass('displaynone');
+        event.stopPropagation();
+
+    });
+    // 手机端头部搜索框
+    $('.js_searchBtn').on('click', function() {
+        var $this = $(this);
+        $this.parents('.header2019').siblings('.js_m_search').removeClass('displaynone');
+    });
+    $('.js_search_close').on('click', function() {
+        var $this = $(this);
+        $this.parents('.js_m_search').addClass('displaynone');
     });
 }

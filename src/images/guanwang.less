@@ -35,10 +35,13 @@
     border-bottom: 0.06rem solid #005aaa !important;
     color: #005aaa !important;
 }
-.color_0c5ca8{
+
+.color_0c5ca8 {
     color: #0c5ca8 !important;
-};
-.border_top999{
+}
+
+;
+.border_top999 {
     border-top: 1px solid #999 !important;
 }
 
@@ -422,7 +425,7 @@ a {
     margin: 0 auto;
     overflow: hidden;
     position: relative;
-    height: 5.1rem;
+    height: 5.06rem;
     .pager {
         position: absolute;
         bottom: 0.35rem;
@@ -600,7 +603,7 @@ a {
                     .xinxuan_img_box {
                         padding: 20px;
                         overflow: hidden;
-                        height: 460px;
+                        height: 4.3rem;
                         box-sizing: border-box;
                         vertical-align: top;
                         img {
@@ -620,7 +623,7 @@ a {
                             padding-top: 0.55rem;
                             img {
                                 width: 51.43%;
-                                height: 180px;
+                                height: 1.73rem;
                                 transition: transform 0.8s;
                                 box-sizing: border-box;
                             }
@@ -741,7 +744,7 @@ a {
                                 padding-top: 1.12rem;
                                 width: 64% !important;
                                 img {
-                                    height: 576px;
+                                    height: 5.76rem;
                                 }
                             }
                             .star_price {
@@ -988,6 +991,7 @@ a {
                 overflow: hidden;
                 img {
                     transition: all 0.8s;
+                    width: 100%;
                 }
                 .active_line {
                     width: 100%;
@@ -1170,7 +1174,7 @@ a {
                 font-weight: bold;
                 margin-bottom: 0.1rem;
             }
-            .news_right .detail_msg {
+            .detail_msg {
                 font-size: 0.14rem;
                 line-height: 0.23rem;
             }
@@ -1228,6 +1232,7 @@ a {
                         box-sizing: border-box;
                         img {
                             transition: all 0.7s;
+                            width: 100%;
                         }
                     }
                     a:hover img {
@@ -1294,12 +1299,12 @@ a {
                 width: 100%;
                 display: none;
                 background: #fff;
-                .open_close{
+                .open_close {
                     text-align: center;
                     height: 50px;
                     line-height: 50px;
                     width: 50px;
-                    i{
+                    i {
                         display: inline-block;
                         font-size: 24px;
                     }
@@ -1310,17 +1315,28 @@ a {
                     padding: 0;
                     margin: 0;
                     height: auto;
+                    .left {
+                        min-width: 180px;
+                    }
+                    .li_line {
+                        position: absolute;
+                        top: 8px;
+                        left: -28px;
+                        height: 34px;
+                        background-color: #005aaa;
+                        width: 3px;
+                    }
                     a {
                         width: 100%;
                         height: 40px;
                         line-height: 40px;
-                        font-size: .24rem;
+                        font-size: .24rem !important;
                     }
                     span {
                         font-size: .3rem;
                         line-height: 50px;
                         padding: 0 15px;
-                        i{
+                        i {
                             display: inline-block;
                             font-size: 24px;
                         }
@@ -1330,8 +1346,8 @@ a {
                         position: relative;
                         left: 0;
                     }
-                    .content{
-                        span{
+                    .content {
+                        span {
                             font-size: .24rem !important;
                         }
                     }
@@ -1343,6 +1359,82 @@ a {
                     left: 0;
                     box-shadow: none;
                 }
+            }
+        }
+    }
+    .m_search {
+        width: 100%;
+        height: 50px;
+        position: absolute;
+        z-index: 1010;
+        background-color: #fff;
+        top: 0;
+        .search_left {
+            position: relative;
+            height: 50px;
+            opacity: .5;
+            padding-left: 15px;
+            width: 88%;
+            float: none;
+            input {
+                background: #eee;
+                border-radius: 2px;
+                border: 1px solid #eee;
+                outline: 0;
+                height: 28px;
+                width: 96%;
+                margin-top: 10px;
+                padding: 0 2%;
+                line-height: 28px;
+            }
+            i {
+                position: absolute;
+                right: 1%;
+                top: 12px;
+                font-size: 24px;
+                color: #0c5ca8;
+            }
+        }
+        .search_right {
+            width: 12%;
+            span {
+                display: inline-block;
+                padding: 0 15px;
+                color: #0c5ca8;
+            }
+        }
+    } // 心选商品
+    .xinxuan .xinxuan_bottom .xinxuan_box {
+        margin-top: 0;
+    }
+    // 人气排行
+    .paihang .paihang_bottom .xinxuan_box.paihang_box {
+        margin-top: 0.6rem;
+    }
+    // 爆款商品
+    .star {
+        height: 6rem;
+        .content .star_banner .showbox li .star_linka .star_content .star_img {
+            padding-top: 0.12rem;
+            width: 64% !important;
+        }
+    } // 新闻资讯
+    .news {
+        .news_left .news_details {
+            .detail_img {
+                width: 100%;
+                overflow: hidden;
+                height: 360px;
+                color: #000000;
+                height: 3.46rem;
+            }
+        }
+        .news_right {
+            .detail_msg {
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 2;
+                overflow: hidden;
             }
         }
     }

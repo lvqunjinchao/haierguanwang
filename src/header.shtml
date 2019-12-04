@@ -1,3 +1,4 @@
+<!-- 标准头部 start -->
 <div class="header2019 relative">
     <div class="warp o_g">
         <div class="o_g o_u o_df-hide o_md_1-3 o_md-inlineblock i_menu js_imenu">
@@ -15,9 +16,9 @@
                 <div class="box box_dan relative o_g">
                     <span class="little_tittle">智慧家庭 <i class="displaynone"> ></i></span>
                     <span class="open_close o_df-hide o_md-inlineblock o_md-right">
-                            <i class="iconfont iconshouji1"></i>
-                            <i class="iconfont iconshouji- displaynone"></i>
-                        </span>
+                        <i class="iconfont iconshouji1"></i>
+                        <i class="iconfont iconshouji- displaynone"></i>
+                    </span>
                     <div class="list">
                         <p class="hover_line o_md-hide"></p>
                         <a href="javascript:;">智慧首页</a>
@@ -30,15 +31,18 @@
                 <div class="box box_xiao js_box_buy relative o_g">
                     <span class="little_tittle">个人与家用产品 <i class="displaynone"> ></i></span>
                     <span class="open_close o_df-hide o_md-inlineblock o_md-right">
-                            <i class="iconfont iconshouji1"></i>
-                            <i class="iconfont iconshouji- displaynone"></i>
-                        </span>
+                        <i class="iconfont iconshouji1"></i>
+                        <i class="iconfont iconshouji- displaynone"></i>
+                    </span>
                     <ul class="left js_left">
                         <p class="hover_line o_md-hide"></p>
-                        <li class="border_top999">
-                            <i class="iconfont iconbingxiang o_md-hide"></i>
-                            <a href="javascript:;">冰箱</a>
-                            <a href="javascript:;">冷柜</a>
+                        <li class="border_top999 bg_white">
+                            <div class="relative">
+                                <p class="li_line"></p>
+                                <i class="iconfont iconbingxiang o_md-hide"></i>
+                                <a href="javascript:;">冰箱</a>
+                                <a href="javascript:;">冷柜</a>
+                            </div>
                             <div class="content js_content o_g border_top999">
                                 <div class="not-hide">
                                     <a href="javasccript:;" class="title">冰箱</a>
@@ -69,9 +73,12 @@
                             </div>
                         </li>
                         <li class="">
-                            <i class="iconfont iconbingbajiugui o_md-hide"></i>
-                            <a href="javascript:;">冰吧</a>
-                            <a href="javascript:;">酒柜</a>
+                            <div class="relative">
+                                <p class="li_line displaynone"></p>
+                                <i class="iconfont iconbingbajiugui o_md-hide"></i>
+                                <a href="javascript:;">冰吧</a>
+                                <a href="javascript:;">酒柜</a>
+                            </div>
                             <div class="content js_content o_g displaynone border_top999">
                                 <div class="not-hide">
                                     <a href="javasccript:;" class="title">冰吧</a>
@@ -102,8 +109,11 @@
                             </div>
                         </li>
                         <li class="">
-                            <i class="iconfont iconxiyiji o_md-hide"></i>
-                            <a href="javascript:;">洗衣机</a>
+                            <div class="relative">
+                                <p class="li_line displaynone"></p>
+                                <i class="iconfont iconxiyiji o_md-hide"></i>
+                                <a href="javascript:;">洗衣机</a>
+                            </div>
                             <div class="content js_content o_g displaynone border_top999">
                                 <div class="not-hide">
                                     <a href="javasccript:;" class="title">洗衣机</a>
@@ -127,8 +137,11 @@
                             </div>
                         </li>
                         <li class="">
-                            <i class="iconfont iconkongtiao o_md-hide"></i>
-                            <a href="javascript:;">空调</a>
+                            <div class="relative">
+                                <p class="li_line displaynone"></p>
+                                <i class="iconfont iconkongtiao o_md-hide"></i>
+                                <a href="javascript:;">空调</a>
+                            </div>
                             <div class="content js_content o_g displaynone border_top999">
                                 <div class="not-hide">
                                     <a href="javasccript:;" class="title">空调</a>
@@ -152,8 +165,11 @@
                             </div>
                         </li>
                         <li class="">
-                            <i class="iconfont icondianshi o_md-hide"></i>
-                            <a href="javascript:;">电视</a>
+                            <div class="relative">
+                                <p class="li_line displaynone"></p>
+                                <i class="iconfont icondianshi o_md-hide"></i>
+                                <a href="javascript:;">电视</a>
+                            </div>
                             <div class="content js_content o_g displaynone border_top999">
                                 <div class="not-hide">
                                     <a href="javasccript:;" class="title">电视</a>
@@ -177,8 +193,11 @@
                             </div>
                         </li>
                         <li class="">
-                            <i class="iconfont iconreshuiqi o_md-hide"></i>
-                            <a href="javascript:;">热水器</a>
+                            <div class="relative">
+                                <p class="li_line displaynone"></p>
+                                <i class="iconfont iconreshuiqi o_md-hide"></i>
+                                <a href="javascript:;">热水器</a>
+                            </div>
                             <div class="content js_content o_g displaynone border_top999">
                                 <div class="not-hide">
                                     <a href="javasccript:;" class="title">热水器</a>
@@ -202,8 +221,11 @@
                             </div>
                         </li>
                         <li class="">
-                            <i class="iconfont iconchufangxiaojiadian o_md-hide"></i>
-                            <a href="javascript:;">厨房电器</a>
+                            <div class="relative">
+                                <p class="li_line displaynone"></p>
+                                <i class="iconfont iconchufangxiaojiadian o_md-hide"></i>
+                                <a href="javascript:;">厨房电器</a>
+                            </div>
                             <div class="content js_content o_g displaynone border_top999">
                                 <div class="not-hide">
                                     <a href="javasccript:;" class="title">厨房电器</a>
@@ -227,8 +249,11 @@
                             </div>
                         </li>
                         <li class="">
-                            <i class="iconfont icongehuxiaojiadian o_md-hide"></i>
-                            <a href="javascript:;">小家电</a>
+                            <div class="relative">
+                                <p class="li_line displaynone"></p>
+                                <i class="iconfont icongehuxiaojiadian o_md-hide"></i>
+                                <a href="javascript:;">小家电</a>
+                            </div>
                             <div class="content js_content o_g displaynone border_top999">
                                 <div class="not-hide">
                                     <a href="javasccript:;" class="title">小家电</a>
@@ -252,8 +277,11 @@
                             </div>
                         </li>
                         <li class="">
-                            <i class="iconfont iconquanwujiadiandingzhi o_md-hide"></i>
-                            <a href="javascript:;">电脑和外设</a>
+                            <div class="relative">
+                                <p class="li_line displaynone"></p>
+                                <i class="iconfont iconquanwujiadiandingzhi o_md-hide"></i>
+                                <a href="javascript:;">电脑和外设</a>
+                            </div>
                             <div class="content js_content o_g displaynone border_top999">
                                 <div class="not-hide">
                                     <a href="javasccript:;" class="title">电脑和外设</a>
@@ -281,9 +309,9 @@
                 <div class="box box_dan relative o_g">
                     <span class="little_tittle">商业解决方案 <i class="displaynone"> ></i></span>
                     <span class="open_close o_df-hide o_md-inlineblock o_md-right">
-                            <i class="iconfont iconshouji1"></i>
-                            <i class="iconfont iconshouji- displaynone"></i>
-                        </span>
+                        <i class="iconfont iconshouji1"></i>
+                        <i class="iconfont iconshouji- displaynone"></i>
+                    </span>
                     <div class="list">
                         <p class="hover_line o_md-hide"></p>
                         <a href="javascript:;">中央空调</a>
@@ -299,13 +327,17 @@
                 <div class="box  box_buy js_box_buy relative o_g">
                     <span class="little_tittle">购买与服务 <i class="displaynone"> ></i></span>
                     <span class="open_close o_df-hide o_md-inlineblock o_md-right">
-                            <i class="iconfont iconshouji1"></i>
-                            <i class="iconfont iconshouji- displaynone"></i>
-                        </span>
+                        <i class="iconfont iconshouji1"></i>
+                        <i class="iconfont iconshouji- displaynone"></i>
+                    </span>
                     <ul class="left js_left">
                         <p class="hover_line o_md-hide"></p>
-                        <li class="">购买渠道
-                            <div class="content o_g displaynone">
+                        <li class="border_top999 bg_white">
+                            <div class="relative">
+                                <p class="li_line"></p>
+                                <a href="javascript:;">购买渠道</a>
+                            </div>
+                            <div class="content js_content o_g border_top999">
                                 <span class="o_u o_df_1-2">
                                     <a href="javascript:;">海尔商城</a>
                                 </span>
@@ -314,8 +346,12 @@
                                 </span>
                             </div>
                         </li>
-                        <li class="">售后服务
-                            <div class="content o_g displaynone">
+                        <li class="">
+                            <div class="relative">
+                                <p class="li_line displaynone"></p>
+                                <a href="javascript:;">售后服务</a>
+                            </div>
+                            <div class="content js_content o_g displaynone border_top999">
                                 <span class="o_u o_df_1-2">
                                     <a href="javascript:;">认证产品</a>
                                 </span>
@@ -342,8 +378,12 @@
                                 </span>
                             </div>
                         </li>
-                        <li class="">会员尊享
-                            <div class="content o_g displaynone">
+                        <li class="">
+                            <div class="relative">
+                                <p class="li_line displaynone"></p>
+                                <a href="javascript:;">会员尊享</a>
+                            </div>
+                            <div class="content js_content o_g displaynone border_top999">
                                 <span class="o_u o_df_1-2">
                                     <a href="javascript:;">免费试用</a>
                                 </span>
@@ -360,9 +400,9 @@
                 <div class="box box_dan relative o_g">
                     <span class="little_tittle">关于海尔 <i class="displaynone"> ></i></span>
                     <span class="open_close o_df-hide o_md-inlineblock o_md-right">
-                            <i class="iconfont iconshouji1"></i>
-                            <i class="iconfont iconshouji- displaynone"></i>
-                        </span>
+                        <i class="iconfont iconshouji1"></i>
+                        <i class="iconfont iconshouji- displaynone"></i>
+                    </span>
                     <div class="list">
                         <p class="hover_line o_md-hide"></p>
                         <a href="javascript:;">海尔集团</a>
@@ -400,3 +440,20 @@
         </div>
     </div>
 </div>
+<!-- 标准头部 end -->
+
+<!-- 移动端 search start -->
+<div class="m_search js_m_search displaynone">
+    <div class="warp o_g">
+        <div class="o_u search_left">
+            <form action="#">
+                <input type="text" name="" id="" placeholder="搜索">
+            </form>
+            <i class="iconfont iconshoujisousuo"></i>
+        </div>
+        <div class="o_u search_right">
+            <span class="iconfont iconX js_search_close"></span>
+        </div>
+    </div>
+</div>
+<!-- 移动端 search end -->
