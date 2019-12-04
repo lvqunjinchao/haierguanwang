@@ -28,7 +28,7 @@
 }
 
 .bg_251 {
-    background-color: rgb(251, 251, 251) !important;
+    background-color: rgb(240, 240, 240) !important;
 }
 
 .bg_color_005aaa {
@@ -1248,9 +1248,9 @@ a {
 }
 
 // PC端 end
-// Pad端 start
-@media screen and (min-width:751px) and (max-width:1200px) {
-    // Pad头部
+// Pad端和手机端公用的 start
+@media screen and (max-width:1200px) {
+    //    头部公共属性 start
     .header2019 {
         height: 50px;
         position: relative;
@@ -1338,7 +1338,8 @@ a {
                         padding: 0 15px;
                         i {
                             display: inline-block;
-                            font-size: 24px;
+                            font-size: 18px;
+                            color: #777;
                         }
                     }
                     .list {
@@ -1403,15 +1404,19 @@ a {
                 color: #0c5ca8;
             }
         }
-    } // 心选商品
+    } //    头部公共属性 end
+}
+
+// Pad端和手机端公用的 end
+// Pad端 start
+@media screen and (min-width:751px) and (max-width:1200px) {
+    // 心选商品
     .xinxuan .xinxuan_bottom .xinxuan_box {
         margin-top: 0;
-    }
-    // 人气排行
+    } // 人气排行
     .paihang .paihang_bottom .xinxuan_box.paihang_box {
         margin-top: 0.6rem;
-    }
-    // 爆款商品
+    } // 爆款商品
     .star {
         height: 6rem;
         .content .star_banner .showbox li .star_linka .star_content .star_img {
@@ -1441,3 +1446,124 @@ a {
 }
 
 // Pad端 end
+//手机端开始 start
+@media screen and (max-width:751px) {
+    // 头部 start
+    .tools .search {
+        width: auto;
+        position: relative;
+        display: inline-block;
+    } // 头部 end
+    // 身体开始
+    // 头部下面的轮播图
+    .banner {
+        height: 3.6rem;
+        .pager {
+            position: absolute;
+            bottom: 0.1rem;
+            text-align: center;
+            width: 100%;
+            li {
+                display: inline-block;
+                width: 0.16rem;
+                height: 0.16rem;
+                border-radius: 50%;
+                margin: 0 0.1rem;
+                vertical-align: middle;
+                border: 1px solid #8a8a8a;
+                background-color: transparent;
+                box-sizing: border-box;
+                font-size: 0;
+            }
+            li.cur {
+                width: 0.16rem;
+                height: 0.16rem;
+                background-color: #fff;
+            }
+        }
+    } // 心选
+    .xinxuan {
+        margin-top: 0.9rem;
+        .xinxuan_title {
+            font-size: 0.48rem;
+            height: 0.48rem;
+            line-height: 0.48rem;
+            padding-bottom: 0.4rem;
+            padding-top: 0;
+            margin-bottom: 0;
+        }
+        .xinxuan_tab_box {
+            overflow-x: scroll;
+            overflow-y: hidden;
+            .xinxuan_tab {
+                width: 11rem;
+                li {
+                    width: auto !important;
+                    margin: 0 0.15rem;
+                    span {
+                        padding: 0 0.20rem;
+                        font-size: 0.28rem;
+                    }
+                }
+            }
+        }
+        .xinxuan_bottom {
+            height: auto;
+            background: none;
+            .xinxuan_box{
+                margin-top: 0.35rem;
+            }
+            .xinxuan_img_box{
+                padding-top: 0.3rem !important;
+            }
+            .xinxuan_box .content {
+                .xinxuan_name {
+                    font-size: 0.24rem;
+                    line-height: 0.266rem;
+                    height: 0.26rem;
+                    color: #000;
+                    margin-top: 0.7rem;
+                    padding: 0 1em;
+                    text-align: center;
+                }
+                .xinxuan_right {
+                    .xinxuan_box_pro {
+                        display: inline-block;
+                        width: 50%;
+                    }
+                }
+                .xinxuan_center{
+                    height: 6.4rem;
+                }
+                .xinxuan_left {
+                    height: 6.4rem;
+                    .xinxuan_name {
+                        margin-top: 0.5rem;
+                        white-space: normal;
+                        display: -webkit-box;
+                        -webkit-box-orient: vertical;
+                        -webkit-line-clamp: 2;
+                        line-height: 0.34rem;
+                        height: 0.68rem;
+                        font-size: 0.24rem;
+                    }
+                    .xinxuan_note {
+                        margin-top: 0.13rem;
+                        font-size: 0.20rem;
+                        height: 0.26rem;
+                        overflow: hidden;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        line-height: 0.26rem;
+                    }
+                }
+            }
+        }
+    } // 爆款商品
+    .star {
+        height: 8.9rem;
+        margin-top: 0.5rem;
+    }
+}
+
+//手机端开始 end

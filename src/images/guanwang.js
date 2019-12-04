@@ -191,7 +191,8 @@ if (width > 1200) {
         $this.parents('.js_wechat_box').siblings('.js_sweep_code_box').addClass('displaynone');
     });
 
-} else if (width > 750 && width < 1200) {
+} else if (width < 1200) {
+    // 手机端Pad端头部公用函数 start
     // 点击出现弹窗
     $('.js_imenu').on('click', function() {
         $this = $(this);
@@ -215,6 +216,7 @@ if (width > 1200) {
         if (!flag) {
             $this.find('.list').addClass('displayblock');
             $this.find('.little_tittle').addClass('color_0c5ca8');
+            $this.siblings('.box_dan').find('.little_tittle').removeClass('color_0c5ca8');
             $this.find('.little_tittle i').removeClass('displaynone');
             $this.find('.iconshouji1').addClass('displaynone');
             $this.find('.iconshouji-').removeClass('displaynone');
@@ -268,6 +270,12 @@ if (width > 1200) {
             $this.find('.little_tittle i').removeClass('displaynone');
             $this.find('.iconshouji1').addClass('displaynone');
             $this.find('.iconshouji-').removeClass('displaynone');
+            // 同级的box_dan取消选中状态
+            $this.siblings('.box_dan').find('.list').removeClass('displayblock');
+            $this.siblings('.box_dan').find('.little_tittle').removeClass('color_0c5ca8');
+            $this.siblings('.box_dan').find('.little_tittle i').addClass('displaynone');
+            $this.siblings('.box_dan').find('.iconshouji1').removeClass('displaynone');
+            $this.siblings('.box_dan').find('.iconshouji-').addClass('displaynone');
         } else {
             $this.siblings('.box').removeClass('displaynone');
             $this.find('.js_left').removeClass('displayblock');
@@ -298,4 +306,6 @@ if (width > 1200) {
         var $this = $(this);
         $this.parents('.js_m_search').addClass('displaynone');
     });
+    // 手机端Pad端头部公用函数 end
+
 }

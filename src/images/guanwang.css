@@ -20,7 +20,7 @@
   background-color: #eff0f5 !important;
 }
 .bg_251 {
-  background-color: #fbfbfb !important;
+  background-color: #f0f0f0 !important;
 }
 .bg_color_005aaa {
   border-bottom: 0.06rem solid #005aaa !important;
@@ -1194,7 +1194,7 @@ a {
 .link .content .link_img .link_box .link_grid a:hover {
   background: url(./white.png) top center no-repeat;
 }
-@media screen and (min-width: 751px) and (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
   .header2019 {
     height: 50px;
     position: relative;
@@ -1287,7 +1287,8 @@ a {
   }
   .header2019 .warp .nav .box span i {
     display: inline-block;
-    font-size: 24px;
+    font-size: 18px;
+    color: #777;
   }
   .header2019 .warp .nav .box .list {
     top: 0;
@@ -1346,6 +1347,8 @@ a {
     padding: 0 15px;
     color: #0c5ca8;
   }
+}
+@media screen and (min-width: 751px) and (max-width: 1200px) {
   .xinxuan .xinxuan_bottom .xinxuan_box {
     margin-top: 0;
   }
@@ -1371,5 +1374,116 @@ a {
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
     overflow: hidden;
+  }
+}
+@media screen and (max-width: 751px) {
+  .tools .search {
+    width: auto;
+    position: relative;
+    display: inline-block;
+  }
+  .banner {
+    height: 3.6rem;
+  }
+  .banner .pager {
+    position: absolute;
+    bottom: 0.1rem;
+    text-align: center;
+    width: 100%;
+  }
+  .banner .pager li {
+    display: inline-block;
+    width: 0.16rem;
+    height: 0.16rem;
+    border-radius: 50%;
+    margin: 0 0.1rem;
+    vertical-align: middle;
+    border: 1px solid #8a8a8a;
+    background-color: transparent;
+    box-sizing: border-box;
+    font-size: 0;
+  }
+  .banner .pager li.cur {
+    width: 0.16rem;
+    height: 0.16rem;
+    background-color: #fff;
+  }
+  .xinxuan {
+    margin-top: 0.9rem;
+  }
+  .xinxuan .xinxuan_title {
+    font-size: 0.48rem;
+    height: 0.48rem;
+    line-height: 0.48rem;
+    padding-bottom: 0.4rem;
+    padding-top: 0;
+    margin-bottom: 0;
+  }
+  .xinxuan .xinxuan_tab_box {
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+  .xinxuan .xinxuan_tab_box .xinxuan_tab {
+    width: 11rem;
+  }
+  .xinxuan .xinxuan_tab_box .xinxuan_tab li {
+    width: auto !important;
+    margin: 0 0.15rem;
+  }
+  .xinxuan .xinxuan_tab_box .xinxuan_tab li span {
+    padding: 0 0.2rem;
+    font-size: 0.28rem;
+  }
+  .xinxuan .xinxuan_bottom {
+    height: auto;
+    background: none;
+  }
+  .xinxuan .xinxuan_bottom .xinxuan_box {
+    margin-top: 0.35rem;
+  }
+  .xinxuan .xinxuan_bottom .xinxuan_img_box {
+    padding-top: 0.3rem !important;
+  }
+  .xinxuan .xinxuan_bottom .xinxuan_box .content .xinxuan_name {
+    font-size: 0.24rem;
+    line-height: 0.266rem;
+    height: 0.26rem;
+    color: #000;
+    margin-top: 0.7rem;
+    padding: 0 1em;
+    text-align: center;
+  }
+  .xinxuan .xinxuan_bottom .xinxuan_box .content .xinxuan_right .xinxuan_box_pro {
+    display: inline-block;
+    width: 50%;
+  }
+  .xinxuan .xinxuan_bottom .xinxuan_box .content .xinxuan_center {
+    height: 6.4rem;
+  }
+  .xinxuan .xinxuan_bottom .xinxuan_box .content .xinxuan_left {
+    height: 6.4rem;
+  }
+  .xinxuan .xinxuan_bottom .xinxuan_box .content .xinxuan_left .xinxuan_name {
+    margin-top: 0.5rem;
+    white-space: normal;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-height: 0.34rem;
+    height: 0.68rem;
+    font-size: 0.24rem;
+  }
+  .xinxuan .xinxuan_bottom .xinxuan_box .content .xinxuan_left .xinxuan_note {
+    margin-top: 0.13rem;
+    font-size: 0.2rem;
+    height: 0.26rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height: 0.26rem;
+  }
+  .star {
+    height: 8.9rem;
+    margin-top: 0.5rem;
   }
 }
