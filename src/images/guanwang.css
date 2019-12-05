@@ -29,6 +29,9 @@
 .color_0c5ca8 {
   color: #0c5ca8 !important;
 }
+.bg_grey {
+  background-color: #f6f7f9 !important;
+}
 .border_top999 {
   border-top: 1px solid #999 !important;
 }
@@ -97,9 +100,8 @@
   padding-top: 21px;
 }
 .header2019 .nav .box.box_xiao .left .content .content_detail span {
-  width: 132px;
   box-sizing: border-box;
-  padding-left: 30px;
+  text-align: center;
   font-size: 12px;
   padding-bottom: 3px;
 }
@@ -156,7 +158,6 @@
   top: 100%;
   left: 0;
   display: none;
-  width: 140px;
   height: 150px;
 }
 .header2019 .box .left li {
@@ -357,10 +358,10 @@ a {
 .footer .warp .bottom .threeone div {
   display: inline-block;
 }
-.footer .warp .bottom .threeone:nth-child(3) {
+.footer .warp .bottom .threeone:nth-child(4) {
   text-align: right;
 }
-.footer .warp .bottom .threeone:nth-child(3) span {
+.footer .warp .bottom .threeone:nth-child(4) span {
   font-size: 25px;
   display: inline-block;
   vertical-align: middle;
@@ -369,10 +370,10 @@ a {
   position: relative;
   padding-left: 10px;
 }
-.footer .warp .bottom .threeone:nth-child(3) span:hover {
+.footer .warp .bottom .threeone:nth-child(4) span:hover {
   color: #09bb07;
 }
-.footer .warp .bottom .threeone:nth-child(3) .sweep_code_box {
+.footer .warp .bottom .threeone:nth-child(4) .sweep_code_box {
   position: absolute;
   padding: 5px;
   border: 1px solid #eee;
@@ -380,7 +381,7 @@ a {
   right: -60px;
   bottom: 30px;
 }
-.footer .warp .bottom .threeone:nth-child(2) {
+.footer .warp .bottom .threeone:nth-child(3) {
   text-align: center;
 }
 .banner {
@@ -662,7 +663,7 @@ a {
   font-size: 0;
   height: 100%;
   white-space: normal;
-  background: url(./ia_100001657.png) center center no-repeat;
+  background: url(./ia_100000023.jpg) left top no-repeat;
   background-size: cover;
 }
 .star .content .star_banner .showbox li .star_linka {
@@ -1382,6 +1383,35 @@ a {
     position: relative;
     display: inline-block;
   }
+  .header2019 .warp .nav .box .left {
+    min-width: 1.8rem;
+  }
+  .header2019 .warp .nav .box .left li {
+    padding-left: 10px!important;
+  }
+  .header2019 .warp .nav .box .left li .li_line {
+    position: absolute;
+    top: 8px;
+    left: -9px;
+    height: 34px;
+    background-color: #005aaa;
+    width: 4px;
+  }
+  .gototop {
+    text-align: center;
+    width: 0.8rem;
+    height: 0.8rem;
+    position: fixed;
+    bottom: 1.3rem;
+    line-height: 0.8rem;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 999;
+    right: 0.2rem;
+    display: block;
+    border-radius: 5px;
+    background-image: url(./ia_100000000396.png);
+    background-size: 100%;
+  }
   .banner {
     height: 3.6rem;
   }
@@ -1483,7 +1513,341 @@ a {
     line-height: 0.26rem;
   }
   .star {
-    height: 8.9rem;
+    height: 9.2rem;
     margin-top: 0.5rem;
+  }
+  .star .content .star_banner .showbox li {
+    height: 9.2rem;
+  }
+  .star .content .star_banner .showbox li .star_linka .star_content {
+    font-size: 0;
+  }
+  .star .content .star_banner .showbox li .star_linka .star_content .star_msg {
+    padding-top: 0.3rem;
+    position: static;
+    width: 45% !important;
+    text-align: left;
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 0;
+  }
+  .star .content .star_banner .showbox li .star_linka .star_content .star_msg .star_name {
+    font-size: 0.36rem;
+    line-height: 0.52rem;
+    margin-bottom: 0.24rem;
+    white-space: normal;
+  }
+  .star .content .star_banner .showbox li .star_linka .star_content .star_sale {
+    padding-top: 0.3rem;
+    position: static !important;
+    width: 55% !important;
+    box-sizing: border-box;
+    text-align: right;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .star .content .star_banner .showbox li .star_linka .star_content .star_sale p {
+    vertical-align: top;
+    font-size: 0.24rem;
+    line-height: 0.44rem;
+  }
+  .star .content .star_banner .showbox li .star_linka .star_content .star_img {
+    width: 81.3% !important;
+    padding-top: 0.6rem;
+    margin-bottom: 0.6rem;
+  }
+  .star .content .star_banner .showbox li .star_linka .star_content .star_img img {
+    height: 4.22rem;
+  }
+  .star .content .star_banner .showbox li .star_linka .star_content .star_price {
+    text-align: right;
+    position: static;
+    height: 0.5rem;
+  }
+  .star .content .star_banner .showbox li .star_linka .star_content .star_price .price_normal {
+    display: inline-block;
+    font-size: 0.24rem;
+    height: auto;
+    vertical-align: text-bottom;
+  }
+  .star .content .star_banner .showbox li .star_linka .star_content .star_price .price_big {
+    display: inline-block;
+    font-size: 0.48rem;
+    vertical-align: text-bottom;
+    line-height: 0.55rem;
+  }
+  .paihang .paihang_bottom ul .tabboxPaihang .paihang_item {
+    padding: 0;
+  }
+  .paihang .paihang_bottom ul .tabboxPaihang .paihang_item .paihang_pro {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    margin-top: 0 !important;
+    width: 100% !important;
+    height: 3.88rem;
+    margin-bottom: 0.3rem;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.25);
+    text-align: left;
+    box-sizing: border-box;
+    padding-top: 0;
+    padding-left: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .paihang .paihang_bottom ul .tabboxPaihang .paihang_item .paihang_pro .paihang_img {
+    width: 3.68rem;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .paihang .paihang_bottom ul .tabboxPaihang .paihang_item .paihang_pro .paihang_right {
+    display: inline-block;
+    max-width: 40%;
+    vertical-align: top;
+  }
+  .paihang .paihang_bottom ul .tabboxPaihang .paihang_item .paihang_pro .paihang_right .paihang_name {
+    display: inline-block;
+    width: 100%;
+    font-size: 0.28rem;
+    line-height: 0.36rem;
+    height: auto;
+    text-align: left;
+    color: #000;
+    white-space: normal;
+    padding-right: 0.3rem;
+    box-sizing: border-box;
+    margin-bottom: 0.25rem;
+  }
+  .paihang .paihang_bottom ul .tabboxPaihang .paihang_item .paihang_pro .paihang_right .paihang_xinghao {
+    display: inline-block;
+    width: 100%;
+    padding-right: 0.3rem;
+    box-sizing: border-box;
+    font-size: 0.24rem;
+    line-height: 0.24rem;
+    height: 0.24rem;
+    color: #444444;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+  }
+  .paihang .paihang_bottom ul .tabboxPaihang .paihang_item .paihang_pro .paihang_right {
+    display: inline-block;
+    max-width: 40%;
+  }
+  .paihang .paihang_bottom ul .tabboxPaihang .paihang_item .paihang_pro .paihang_ling {
+    display: none;
+  }
+  .active {
+    height: auto;
+    padding-bottom: 0.6rem;
+    margin-top: 0;
+  }
+  .active .content {
+    padding: 0 0.3rem;
+  }
+  .active .content .active_body {
+    position: static;
+    width: 100%;
+    height: auto;
+  }
+  .active .content .active_left .active_msg {
+    position: static;
+    text-align: center;
+    padding: 0.6rem 0 0.3rem;
+  }
+  .active .content .active_left .active_msg .active_title {
+    font-size: 0.48rem;
+    line-height: 0.48rem;
+    height: 0.48rem;
+    margin-bottom: 0.3rem;
+  }
+  .active .content .active_left .active_msg .active_main {
+    font-size: 0.24rem;
+    line-height: 0.4rem;
+    width: 100%;
+  }
+  .active .content .active_left .active_img {
+    position: relative;
+    width: 100%;
+  }
+  .active .content .active_left .active_line {
+    display: none;
+  }
+  .active .content .active_right .active_msg {
+    position: static;
+    text-align: center;
+    padding: 0.6rem 0 0.3rem;
+  }
+  .active .content .active_right .active_msg .active_title {
+    font-size: 0.48rem;
+    line-height: 0.48rem;
+    height: 0.48rem;
+    margin-bottom: 0.3rem;
+    padding-left: 0;
+  }
+  .active .content .active_right .active_msg .active_main {
+    font-size: 0.24rem;
+    line-height: 0.4rem;
+    width: 100%;
+    padding-left: 0;
+  }
+  .active .content .active_right .active_img {
+    position: relative;
+    width: 100%;
+  }
+  .active .content .active_right .active_line {
+    display: none;
+  }
+  .story .content .story_title {
+    font-size: 0.48rem;
+    height: 0.48rem;
+    line-height: 0.48rem;
+  }
+  .story .content .story_msg {
+    font-size: 0.24rem;
+    line-height: 0.4rem;
+    margin-bottom: 0.4rem;
+  }
+  .news .news_title {
+    font-size: 0.48rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.6rem;
+  }
+  .news .news_left .news_details {
+    height: auto;
+    padding-bottom: 0.45rem;
+  }
+  .news .news_left .news_details .detail_img {
+    height: 3.9rem;
+  }
+  .news .news_left .news_details .detail_title {
+    font-size: 0.3rem;
+    line-height: 0.34rem;
+    height: auto;
+    margin-top: 0.58rem;
+    margin-bottom: 0.28rem;
+  }
+  .news .news_left .news_details .detail_msg {
+    font-size: 0.24rem;
+    line-height: 0.36rem;
+  }
+  .news .news_right {
+    height: auto;
+  }
+  .news .news_right .news_list {
+    height: auto;
+  }
+  .news .news_right .news_list .news_details {
+    height: auto;
+    padding-bottom: 0.45rem;
+    padding-top: 0;
+  }
+  .news .news_right .news_list .news_details .detail_title {
+    font-size: 0.3rem;
+    line-height: 0.48rem;
+    height: auto;
+    margin-top: 0.6rem;
+    margin-bottom: 0.3rem;
+  }
+  .news .news_right .news_list .news_details .detail_msg {
+    font-size: 0.24rem;
+    line-height: 0.36rem;
+  }
+  .link .link_title {
+    font-size: 0.48rem;
+    line-height: 0.5rem;
+    height: 0.5rem;
+  }
+  .link .link_box img {
+    width: 100%;
+  }
+  .link .link_box .link_a {
+    position: absolute !important;
+    width: 23% !important;
+    height: 55.6% !important;
+    background: none !important;
+    padding-top: 7%;
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+  }
+  .link .link_box .link_1 {
+    left: 14%;
+    top: 0;
+  }
+  .link .link_box .link_2 {
+    left: 38%;
+    top: 0;
+  }
+  .link .link_box .link_3 {
+    left: 63%;
+    top: 0;
+  }
+  .link .link_box .link_4 {
+    left: 2%;
+    top: 44%;
+  }
+  .link .link_box .link_5 {
+    left: 27%;
+    top: 45%;
+  }
+  .link .link_box .link_6 {
+    left: 51%;
+    top: 45%;
+  }
+  .link .link_box .link_7 {
+    left: 76%;
+    top: 43%;
+  }
+  .footer {
+    width: 100%;
+    min-height: 130px;
+    background: #fafafa;
+    text-align: center;
+  }
+  .footer .warp {
+    padding: 10px 15px 0;
+  }
+  .footer .warp .bottom {
+    margin: 0;
+    border: none;
+  }
+  .footer .warp .bottom span,
+  .footer .warp .bottom a {
+    font-size: 0.24rem;
+    line-height: 1.5;
+    vertical-align: middle;
+  }
+  .footer .warp .bottom .wangzhan {
+    padding: 5px 0;
+  }
+  .footer .warp .bottom .wangzhan a {
+    color: #0c5ca8;
+  }
+  .home_bottom_menu {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 1.2rem;
+    border-top: 1px solid #c8c8c8;
+    background: #fff;
+    z-index: 999;
+  }
+  .home_bottom_menu .box {
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    padding-top: 8px;
+  }
+  .home_bottom_menu .box i {
+    display: block;
+    color: #444;
+    font-size: 0.5rem;
+  }
+  .home_bottom_menu .box span {
+    display: block;
+    font-size: 0.24rem;
   }
 }

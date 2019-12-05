@@ -30,6 +30,9 @@
             <div class="boxlayer js_boxlayer displaynone "></div>
             <!-- 遮罩层 end -->
 
+            <!-- 手机端回到顶部 start -->
+            <div class="gototop js_gototop displaynone"></div>
+            <!-- 手机端回到顶部 end -->
 
             <!--轮播图 start-->
             <div class="banner js_banner o_g">
@@ -90,7 +93,7 @@
                                         </a>
                                     </div>
                                     <div class="o_u o_df_7-24 o_xs_1-2 xinxuan_center">
-                                        <a href="javascript::" class="xinxuan_box_pro">
+                                        <a href="javascript::" class="xinxuan_box_pro bg_grey">
                                             <div class="xinxuan_img_box">
                                                 <img src="./images/ia_100001938.png" class="o_u o_df_24-24">
                                             </div>
@@ -109,6 +112,206 @@
                                     </div>
                                     <div class="o_u o_df_7-24 o_xs_2-2 xinxuan_right">
                                         <a href="javascript::" class="xinxuan_box_pro bg_251 o_u o_xs_1-2">
+                                            <div class="xinxuan_img_box">
+                                                <img src="./images/ia_100000053.png" class="o_u o_df_24-24">
+                                            </div>
+                                            <div class="xinxuan_name">近吸式高效吸油烟机</div>
+                                            <div class="xinxuan_note">BCD-531WDVLU1</div>
+                                            <p class="xinxuan_line"></p>
+                                        </a>
+                                        <a href="javascript::" class="xinxuan_box_pro o_u o_xs_1-2 bg_grey">
+                                            <div class="xinxuan_img_box">
+                                                <img src="./images/ia_100000038.png" class="o_u o_df_24-24">
+                                            </div>
+                                            <div class="xinxuan_name">海尔58英寸智能电视</div>
+                                            <div class="xinxuan_note">WWD-5DFAEFAW1</div>
+                                            <p class="xinxuan_line"></p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="xinxuan_box o_g">
+                                <div class="content">
+                                    <div class="o_u o_df_10-24 o_xs_1-2 xinxuan_left">
+                                        <a href="javascript:;" class="xinxuan_box_pro">
+                                            <div class="xinxuan_img_box">
+                                                <img src="./images/ia_100001946.png" class="o_u o_df_24-24">
+                                            </div>
+                                            <div class="xinxuan_name">531升风冷变频十字对开门空调</div>
+                                            <div class="xinxuan_note">BCD-531WDVLU1</div>
+                                            <p class="xinxuan_line"></p>
+                                        </a>
+                                    </div>
+                                    <div class="o_u o_df_7-24 o_xs_1-2 xinxuan_center">
+                                        <a href="javascript::" class="xinxuan_box_pro bg_grey">
+                                            <div class="xinxuan_img_box">
+                                                <img src="./images/ia_100001938.png" class="o_u o_df_24-24">
+                                            </div>
+                                            <div class="xinxuan_name">531升风冷变频十字对开门冰箱</div>
+                                            <div class="xinxuan_note">BCD-531WDVLU1</div>
+                                            <p class="xinxuan_line"></p>
+                                        </a>
+                                        <a href="javascript::" class="xinxuan_box_pro bg_251">
+                                            <div class="xinxuan_img_box">
+                                                <img src="./images/ia_100000047.png" class="o_u o_df_24-24">
+                                            </div>
+                                            <div class="xinxuan_name">JDA系列智能变频空调</div>
+                                            <div class="xinxuan_note">BCD-53IMEDNXLU1</div>
+                                            <p class="xinxuan_line"></p>
+                                        </a>
+                                    </div>
+                                    <div class="o_u o_df_7-24 o_xs_2-2 xinxuan_right">
+                                        <a href="javascript::" class="xinxuan_box_pro bg_251 o_u o_xs_1-2">
+                                            <div class="xinxuan_img_box">
+                                                <img src="./images/ia_100000053.png" class="o_u o_df_24-24">
+                                            </div>
+                                            <div class="xinxuan_name">近吸式高效吸油烟机</div>
+                                            <div class="xinxuan_note">BCD-531WDVLU1</div>
+                                            <p class="xinxuan_line"></p>
+                                        </a>
+                                        <a href="javascript::" class="xinxuan_box_pro o_u o_xs_1-2 bg_grey">
+                                            <div class="xinxuan_img_box">
+                                                <img src="./images/ia_100000038.png" class="o_u o_df_24-24">
+                                            </div>
+                                            <div class="xinxuan_name">海尔58英寸智能电视</div>
+                                            <div class="xinxuan_note">WWD-5DFAEFAW1</div>
+                                            <p class="xinxuan_line"></p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="xinxuan_box o_g">
+                                <div class="content">
+                                    <div class="o_u o_df_10-24 o_xs_1-2 xinxuan_left">
+                                        <a href="javascript:;" class="xinxuan_box_pro">
+                                            <div class="xinxuan_img_box">
+                                                <img src="./images/ia_100001946.png" class="o_u o_df_24-24">
+                                            </div>
+                                            <div class="xinxuan_name">531升风冷变频十字对开门空调</div>
+                                            <div class="xinxuan_note">BCD-531WDVLU1</div>
+                                            <p class="xinxuan_line"></p>
+                                        </a>
+                                    </div>
+                                    <div class="o_u o_df_7-24 o_xs_1-2 xinxuan_center">
+                                        <a href="javascript::" class="xinxuan_box_pro bg_grey">
+                                            <div class="xinxuan_img_box">
+                                                <img src="./images/ia_100001938.png" class="o_u o_df_24-24">
+                                            </div>
+                                            <div class="xinxuan_name">531升风冷变频十字对开门冰箱</div>
+                                            <div class="xinxuan_note">BCD-531WDVLU1</div>
+                                            <p class="xinxuan_line"></p>
+                                        </a>
+                                        <a href="javascript::" class="xinxuan_box_pro bg_251">
+                                            <div class="xinxuan_img_box">
+                                                <img src="./images/ia_100000047.png" class="o_u o_df_24-24">
+                                            </div>
+                                            <div class="xinxuan_name">JDA系列智能变频空调</div>
+                                            <div class="xinxuan_note">BCD-53IMEDNXLU1</div>
+                                            <p class="xinxuan_line"></p>
+                                        </a>
+                                    </div>
+                                    <div class="o_u o_df_7-24 o_xs_2-2 xinxuan_right">
+                                        <a href="javascript::" class="xinxuan_box_pro bg_251 o_u o_xs_1-2">
+                                            <div class="xinxuan_img_box">
+                                                <img src="./images/ia_100000053.png" class="o_u o_df_24-24">
+                                            </div>
+                                            <div class="xinxuan_name">近吸式高效吸油烟机</div>
+                                            <div class="xinxuan_note">BCD-531WDVLU1</div>
+                                            <p class="xinxuan_line"></p>
+                                        </a>
+                                        <a href="javascript::" class="xinxuan_box_pro o_u o_xs_1-2 bg_grey">
+                                            <div class="xinxuan_img_box">
+                                                <img src="./images/ia_100000038.png" class="o_u o_df_24-24">
+                                            </div>
+                                            <div class="xinxuan_name">海尔58英寸智能电视</div>
+                                            <div class="xinxuan_note">WWD-5DFAEFAW1</div>
+                                            <p class="xinxuan_line"></p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="xinxuan_box o_g">
+                                <div class="content">
+                                    <div class="o_u o_df_10-24 o_xs_1-2 xinxuan_left">
+                                        <a href="javascript:;" class="xinxuan_box_pro">
+                                            <div class="xinxuan_img_box">
+                                                <img src="./images/ia_100001946.png" class="o_u o_df_24-24">
+                                            </div>
+                                            <div class="xinxuan_name">531升风冷变频十字对开门空调</div>
+                                            <div class="xinxuan_note">BCD-531WDVLU1</div>
+                                            <p class="xinxuan_line"></p>
+                                        </a>
+                                    </div>
+                                    <div class="o_u o_df_7-24 o_xs_1-2 xinxuan_center">
+                                        <a href="javascript::" class="xinxuan_box_pro bg_grey">
+                                            <div class="xinxuan_img_box">
+                                                <img src="./images/ia_100001938.png" class="o_u o_df_24-24">
+                                            </div>
+                                            <div class="xinxuan_name">531升风冷变频十字对开门冰箱</div>
+                                            <div class="xinxuan_note">BCD-531WDVLU1</div>
+                                            <p class="xinxuan_line"></p>
+                                        </a>
+                                        <a href="javascript::" class="xinxuan_box_pro bg_251">
+                                            <div class="xinxuan_img_box">
+                                                <img src="./images/ia_100000047.png" class="o_u o_df_24-24">
+                                            </div>
+                                            <div class="xinxuan_name">JDA系列智能变频空调</div>
+                                            <div class="xinxuan_note">BCD-53IMEDNXLU1</div>
+                                            <p class="xinxuan_line"></p>
+                                        </a>
+                                    </div>
+                                    <div class="o_u o_df_7-24 o_xs_2-2 xinxuan_right">
+                                        <a href="javascript::" class="xinxuan_box_pro bg_251 o_u o_xs_1-2">
+                                            <div class="xinxuan_img_box">
+                                                <img src="./images/ia_100000053.png" class="o_u o_df_24-24">
+                                            </div>
+                                            <div class="xinxuan_name">近吸式高效吸油烟机</div>
+                                            <div class="xinxuan_note">BCD-531WDVLU1</div>
+                                            <p class="xinxuan_line"></p>
+                                        </a>
+                                        <a href="javascript::" class="xinxuan_box_pro o_u o_xs_1-2 bg_grey">
+                                            <div class="xinxuan_img_box">
+                                                <img src="./images/ia_100000038.png" class="o_u o_df_24-24">
+                                            </div>
+                                            <div class="xinxuan_name">海尔58英寸智能电视</div>
+                                            <div class="xinxuan_note">WWD-5DFAEFAW1</div>
+                                            <p class="xinxuan_line"></p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="xinxuan_box o_g">
+                                <div class="content">
+                                    <div class="o_u o_df_10-24 o_xs_1-2 xinxuan_left">
+                                        <a href="javascript:;" class="xinxuan_box_pro">
+                                            <div class="xinxuan_img_box">
+                                                <img src="./images/ia_100001946.png" class="o_u o_df_24-24">
+                                            </div>
+                                            <div class="xinxuan_name">531升风冷变频十字对开门空调</div>
+                                            <div class="xinxuan_note">BCD-531WDVLU1</div>
+                                            <p class="xinxuan_line"></p>
+                                        </a>
+                                    </div>
+                                    <div class="o_u o_df_7-24 o_xs_1-2 xinxuan_center">
+                                        <a href="javascript::" class="xinxuan_box_pro bg_grey">
+                                            <div class="xinxuan_img_box">
+                                                <img src="./images/ia_100001938.png" class="o_u o_df_24-24">
+                                            </div>
+                                            <div class="xinxuan_name">531升风冷变频十字对开门冰箱</div>
+                                            <div class="xinxuan_note">BCD-531WDVLU1</div>
+                                            <p class="xinxuan_line"></p>
+                                        </a>
+                                        <a href="javascript::" class="xinxuan_box_pro bg_251">
+                                            <div class="xinxuan_img_box">
+                                                <img src="./images/ia_100000047.png" class="o_u o_df_24-24">
+                                            </div>
+                                            <div class="xinxuan_name">JDA系列智能变频空调</div>
+                                            <div class="xinxuan_note">BCD-53IMEDNXLU1</div>
+                                            <p class="xinxuan_line"></p>
+                                        </a>
+                                    </div>
+                                    <div class="o_u o_df_7-24 o_xs_2-2 xinxuan_right">
+                                        <a href="javascript::" class="xinxuan_box_pro bg_251 o_u o_xs_1-2 bg_grey">
                                             <div class="xinxuan_img_box">
                                                 <img src="./images/ia_100000053.png" class="o_u o_df_24-24">
                                             </div>
@@ -140,7 +343,7 @@
                                         </a>
                                     </div>
                                     <div class="o_u o_df_7-24 o_xs_1-2 xinxuan_center">
-                                        <a href="javascript::" class="xinxuan_box_pro">
+                                        <a href="javascript::" class="xinxuan_box_pro bg_grey">
                                             <div class="xinxuan_img_box">
                                                 <img src="./images/ia_100001938.png" class="o_u o_df_24-24">
                                             </div>
@@ -166,207 +369,7 @@
                                             <div class="xinxuan_note">BCD-531WDVLU1</div>
                                             <p class="xinxuan_line"></p>
                                         </a>
-                                        <a href="javascript::" class="xinxuan_box_pro o_u o_xs_1-2">
-                                            <div class="xinxuan_img_box">
-                                                <img src="./images/ia_100000038.png" class="o_u o_df_24-24">
-                                            </div>
-                                            <div class="xinxuan_name">海尔58英寸智能电视</div>
-                                            <div class="xinxuan_note">WWD-5DFAEFAW1</div>
-                                            <p class="xinxuan_line"></p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="xinxuan_box o_g">
-                                <div class="content">
-                                    <div class="o_u o_df_10-24 o_xs_1-2 xinxuan_left">
-                                        <a href="javascript:;" class="xinxuan_box_pro">
-                                            <div class="xinxuan_img_box">
-                                                <img src="./images/ia_100001946.png" class="o_u o_df_24-24">
-                                            </div>
-                                            <div class="xinxuan_name">531升风冷变频十字对开门空调</div>
-                                            <div class="xinxuan_note">BCD-531WDVLU1</div>
-                                            <p class="xinxuan_line"></p>
-                                        </a>
-                                    </div>
-                                    <div class="o_u o_df_7-24 o_xs_1-2 xinxuan_center">
-                                        <a href="javascript::" class="xinxuan_box_pro">
-                                            <div class="xinxuan_img_box">
-                                                <img src="./images/ia_100001938.png" class="o_u o_df_24-24">
-                                            </div>
-                                            <div class="xinxuan_name">531升风冷变频十字对开门冰箱</div>
-                                            <div class="xinxuan_note">BCD-531WDVLU1</div>
-                                            <p class="xinxuan_line"></p>
-                                        </a>
-                                        <a href="javascript::" class="xinxuan_box_pro bg_251">
-                                            <div class="xinxuan_img_box">
-                                                <img src="./images/ia_100000047.png" class="o_u o_df_24-24">
-                                            </div>
-                                            <div class="xinxuan_name">JDA系列智能变频空调</div>
-                                            <div class="xinxuan_note">BCD-53IMEDNXLU1</div>
-                                            <p class="xinxuan_line"></p>
-                                        </a>
-                                    </div>
-                                    <div class="o_u o_df_7-24 o_xs_2-2 xinxuan_right">
-                                        <a href="javascript::" class="xinxuan_box_pro bg_251 o_u o_xs_1-2">
-                                            <div class="xinxuan_img_box">
-                                                <img src="./images/ia_100000053.png" class="o_u o_df_24-24">
-                                            </div>
-                                            <div class="xinxuan_name">近吸式高效吸油烟机</div>
-                                            <div class="xinxuan_note">BCD-531WDVLU1</div>
-                                            <p class="xinxuan_line"></p>
-                                        </a>
-                                        <a href="javascript::" class="xinxuan_box_pro o_u o_xs_1-2">
-                                            <div class="xinxuan_img_box">
-                                                <img src="./images/ia_100000038.png" class="o_u o_df_24-24">
-                                            </div>
-                                            <div class="xinxuan_name">海尔58英寸智能电视</div>
-                                            <div class="xinxuan_note">WWD-5DFAEFAW1</div>
-                                            <p class="xinxuan_line"></p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="xinxuan_box o_g">
-                                <div class="content">
-                                    <div class="o_u o_df_10-24 o_xs_1-2 xinxuan_left">
-                                        <a href="javascript:;" class="xinxuan_box_pro">
-                                            <div class="xinxuan_img_box">
-                                                <img src="./images/ia_100001946.png" class="o_u o_df_24-24">
-                                            </div>
-                                            <div class="xinxuan_name">531升风冷变频十字对开门空调</div>
-                                            <div class="xinxuan_note">BCD-531WDVLU1</div>
-                                            <p class="xinxuan_line"></p>
-                                        </a>
-                                    </div>
-                                    <div class="o_u o_df_7-24 o_xs_1-2 xinxuan_center">
-                                        <a href="javascript::" class="xinxuan_box_pro">
-                                            <div class="xinxuan_img_box">
-                                                <img src="./images/ia_100001938.png" class="o_u o_df_24-24">
-                                            </div>
-                                            <div class="xinxuan_name">531升风冷变频十字对开门冰箱</div>
-                                            <div class="xinxuan_note">BCD-531WDVLU1</div>
-                                            <p class="xinxuan_line"></p>
-                                        </a>
-                                        <a href="javascript::" class="xinxuan_box_pro bg_251">
-                                            <div class="xinxuan_img_box">
-                                                <img src="./images/ia_100000047.png" class="o_u o_df_24-24">
-                                            </div>
-                                            <div class="xinxuan_name">JDA系列智能变频空调</div>
-                                            <div class="xinxuan_note">BCD-53IMEDNXLU1</div>
-                                            <p class="xinxuan_line"></p>
-                                        </a>
-                                    </div>
-                                    <div class="o_u o_df_7-24 o_xs_2-2 xinxuan_right">
-                                        <a href="javascript::" class="xinxuan_box_pro bg_251 o_u o_xs_1-2">
-                                            <div class="xinxuan_img_box">
-                                                <img src="./images/ia_100000053.png" class="o_u o_df_24-24">
-                                            </div>
-                                            <div class="xinxuan_name">近吸式高效吸油烟机</div>
-                                            <div class="xinxuan_note">BCD-531WDVLU1</div>
-                                            <p class="xinxuan_line"></p>
-                                        </a>
-                                        <a href="javascript::" class="xinxuan_box_pro o_u o_xs_1-2">
-                                            <div class="xinxuan_img_box">
-                                                <img src="./images/ia_100000038.png" class="o_u o_df_24-24">
-                                            </div>
-                                            <div class="xinxuan_name">海尔58英寸智能电视</div>
-                                            <div class="xinxuan_note">WWD-5DFAEFAW1</div>
-                                            <p class="xinxuan_line"></p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="xinxuan_box o_g">
-                                <div class="content">
-                                    <div class="o_u o_df_10-24 o_xs_1-2 xinxuan_left">
-                                        <a href="javascript:;" class="xinxuan_box_pro">
-                                            <div class="xinxuan_img_box">
-                                                <img src="./images/ia_100001946.png" class="o_u o_df_24-24">
-                                            </div>
-                                            <div class="xinxuan_name">531升风冷变频十字对开门空调</div>
-                                            <div class="xinxuan_note">BCD-531WDVLU1</div>
-                                            <p class="xinxuan_line"></p>
-                                        </a>
-                                    </div>
-                                    <div class="o_u o_df_7-24 o_xs_1-2 xinxuan_center">
-                                        <a href="javascript::" class="xinxuan_box_pro">
-                                            <div class="xinxuan_img_box">
-                                                <img src="./images/ia_100001938.png" class="o_u o_df_24-24">
-                                            </div>
-                                            <div class="xinxuan_name">531升风冷变频十字对开门冰箱</div>
-                                            <div class="xinxuan_note">BCD-531WDVLU1</div>
-                                            <p class="xinxuan_line"></p>
-                                        </a>
-                                        <a href="javascript::" class="xinxuan_box_pro bg_251">
-                                            <div class="xinxuan_img_box">
-                                                <img src="./images/ia_100000047.png" class="o_u o_df_24-24">
-                                            </div>
-                                            <div class="xinxuan_name">JDA系列智能变频空调</div>
-                                            <div class="xinxuan_note">BCD-53IMEDNXLU1</div>
-                                            <p class="xinxuan_line"></p>
-                                        </a>
-                                    </div>
-                                    <div class="o_u o_df_7-24 o_xs_2-2 xinxuan_right">
-                                        <a href="javascript::" class="xinxuan_box_pro bg_251 o_u o_xs_1-2">
-                                            <div class="xinxuan_img_box">
-                                                <img src="./images/ia_100000053.png" class="o_u o_df_24-24">
-                                            </div>
-                                            <div class="xinxuan_name">近吸式高效吸油烟机</div>
-                                            <div class="xinxuan_note">BCD-531WDVLU1</div>
-                                            <p class="xinxuan_line"></p>
-                                        </a>
-                                        <a href="javascript::" class="xinxuan_box_pro o_u o_xs_1-2">
-                                            <div class="xinxuan_img_box">
-                                                <img src="./images/ia_100000038.png" class="o_u o_df_24-24">
-                                            </div>
-                                            <div class="xinxuan_name">海尔58英寸智能电视</div>
-                                            <div class="xinxuan_note">WWD-5DFAEFAW1</div>
-                                            <p class="xinxuan_line"></p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="xinxuan_box o_g">
-                                <div class="content">
-                                    <div class="o_u o_df_10-24 o_xs_1-2 xinxuan_left">
-                                        <a href="javascript:;" class="xinxuan_box_pro">
-                                            <div class="xinxuan_img_box">
-                                                <img src="./images/ia_100001946.png" class="o_u o_df_24-24">
-                                            </div>
-                                            <div class="xinxuan_name">531升风冷变频十字对开门空调</div>
-                                            <div class="xinxuan_note">BCD-531WDVLU1</div>
-                                            <p class="xinxuan_line"></p>
-                                        </a>
-                                    </div>
-                                    <div class="o_u o_df_7-24 o_xs_1-2 xinxuan_center">
-                                        <a href="javascript::" class="xinxuan_box_pro">
-                                            <div class="xinxuan_img_box">
-                                                <img src="./images/ia_100001938.png" class="o_u o_df_24-24">
-                                            </div>
-                                            <div class="xinxuan_name">531升风冷变频十字对开门冰箱</div>
-                                            <div class="xinxuan_note">BCD-531WDVLU1</div>
-                                            <p class="xinxuan_line"></p>
-                                        </a>
-                                        <a href="javascript::" class="xinxuan_box_pro bg_251">
-                                            <div class="xinxuan_img_box">
-                                                <img src="./images/ia_100000047.png" class="o_u o_df_24-24">
-                                            </div>
-                                            <div class="xinxuan_name">JDA系列智能变频空调</div>
-                                            <div class="xinxuan_note">BCD-53IMEDNXLU1</div>
-                                            <p class="xinxuan_line"></p>
-                                        </a>
-                                    </div>
-                                    <div class="o_u o_df_7-24 o_xs_2-2 xinxuan_right">
-                                        <a href="javascript::" class="xinxuan_box_pro bg_251 o_u o_xs_1-2">
-                                            <div class="xinxuan_img_box">
-                                                <img src="./images/ia_100000053.png" class="o_u o_df_24-24">
-                                            </div>
-                                            <div class="xinxuan_name">近吸式高效吸油烟机</div>
-                                            <div class="xinxuan_note">BCD-531WDVLU1</div>
-                                            <p class="xinxuan_line"></p>
-                                        </a>
-                                        <a href="javascript::" class="xinxuan_box_pro o_u o_xs_1-2">
+                                        <a href="javascript::" class="xinxuan_box_pro o_u o_xs_1-2 bg_grey">
                                             <div class="xinxuan_img_box">
                                                 <img src="./images/ia_100000038.png" class="o_u o_df_24-24">
                                             </div>
@@ -406,10 +409,10 @@
                                                 <img src="./images/ia_100001725.png" alt="">
                                             </div>
                                             <div class="o_u o_df_4-24 o_xs_12-12 star_price">
-                                                <span class="price_normal">参考价</span>
+                                                <span class="price_normal">参考价 ￥ </span>
                                                 <span class="price_big">3999</span>
                                             </div>
-                                            <div class="star_link">
+                                            <div class="star_link o_xs-hide">
                                                 <span class="sd_text">了解更多</span>
                                             </div>
                                         </div>
@@ -431,10 +434,10 @@
                                                 <img src="./images/ia_100001727.png" alt="">
                                             </div>
                                             <div class="o_u o_df_4-24 o_xs_12-12 star_price">
-                                                <span class="price_normal">参考价</span>
+                                                <span class="price_normal">参考价 ￥ </span>
                                                 <span class="price_big">6666</span>
                                             </div>
-                                            <div class="star_link">
+                                            <div class="star_link o_xs-hide">
                                                 <span class="sd_text">了解更多</span>
                                             </div>
                                         </div>
@@ -925,7 +928,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="news_more"><a href="javascript:;">更多</a></div>
+                            <div class="news_more o_xs-hide"><a href="javascript:;">更多</a></div>
                         </div>
                     </div>
                 </div>
@@ -973,6 +976,30 @@
                                     <img src="./images/link7.png" alt="">
                                 </a>
                             </div>
+                        </div>
+                        <div class="o_g link_box o_df-hide o_xs-show">
+                            <img src="./images/linkbackground.png" alt="">
+                            <a href="javascript:;" class="link_a link_1">
+                                <img src="./images/link1.png" alt="">
+                            </a>
+                            <a href="javascript:;" class="link_a link_2">
+                                <img src="./images/link2.png" alt="">
+                            </a>
+                            <a href="javascript:;" class="link_a link_3">
+                                <img src="./images/link3.png" alt="">
+                            </a>
+                            <a href="javascript:;" class="link_a link_4">
+                                <img src="./images/link4.png" alt="">
+                            </a>
+                            <a href="javascript:;" class="link_a link_5">
+                                <img src="./images/link5.png" alt="">
+                            </a>
+                            <a href="javascript:;" class="link_a link_6">
+                                <img src="./images/link6.png" alt="">
+                            </a>
+                            <a href="javascript:;" class="link_a link_7">
+                                <img src="./images/link7.png" alt="">
+                            </a>
                         </div>
                     </div>
                 </div>

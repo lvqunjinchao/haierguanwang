@@ -193,6 +193,7 @@ if (width > 1200) {
 
 } else if (width < 1200) {
     // 手机端Pad端头部公用函数 start
+
     // 点击出现弹窗
     $('.js_imenu').on('click', function() {
         $this = $(this);
@@ -237,11 +238,23 @@ if (width > 1200) {
         if (flag4) {
             var height4 = this.innerHeight;
             var width4 = this.innerWidth;
-            height4 = (height4 - 100) + "px";
-            width4 = (width4 - 180) + "px";
-            $this.find('.js_left').css('height', height4);
-            $this.find('.js_left .js_content').css('height', height4);
-            $this.find('.js_left .js_content').css('width', width4);
+            // 获取html的rem的大小
+            var htmlfont = parseFloat($('html').css('font-size'));
+            // 判断屏幕大小进行二次赋值
+            if (width4 > 750) {
+                height4 = (height4 - 100) + "px";
+                width4 = (width4 - 180) + "px";
+                $this.find('.js_left').css('height', height4);
+                $this.find('.js_left .js_content').css('height', height4);
+                $this.find('.js_left .js_content').css('width', width4);
+            } else {
+                height4 = (height4 - 100) + "px";
+                width4 = (width4 - (htmlfont * 1.8)) + "px";
+                $this.find('.js_left').css('height', height4);
+                $this.find('.js_left .js_content').css('height', height4);
+                $this.find('.js_left .js_content').css('width', width4);
+            }
+
         } else {
             return;
         }
@@ -258,11 +271,22 @@ if (width > 1200) {
             $this.siblings('.box').addClass('displaynone');
             $this.find('.js_left').addClass('displayblock');
             var height2 = innerHeight;
-            height2 = (height2 - 100) + "px";
             var widthli = innerWidth;
+            // 获取html的rem的大小
+            var htmlfont = parseFloat($('html').css('font-size'));
+            // 判断屏幕大小二次赋值
+            if (widthli > 750) {
+                height2 = (height2 - 100) + "px";
+                widthli = (widthli - 180) + "px";
+            } else {
+                height2 = (height2 - 100) + "px";
+                widthli = (widthli - (htmlfont * 1.8)) + "px";
+            }
             // 每一次点击的时候此li的时候，或者重置页面宽度的时候，需要重新获取宽度来重新计算
             // 1.点击的时候
-            widthli = (widthli - 180) + "px";
+
+
+
             $this.find('.js_left').css('height', height2);
             $this.find('.js_left .js_content').css('height', height2);
             $this.find('.js_left .js_content').css('width', widthli);
@@ -308,4 +332,36 @@ if (width > 1200) {
     });
     // 手机端Pad端头部公用函数 end
 
+    // 手机端js，虽然手机是750，但是手机的东西在>750的时候都是隐藏的，没有问题
+    $('.js_home_bottom_menu').on('click', 'a', function() {
+        var $this = $(this);
+        $this.addClass('color_0c5ca8');
+        $this.find('i').addClass('color_0c5ca8');
+        $this.siblings('a').removeClass('color_0c5ca8');
+        $this.siblings('a').find('i').removeClass('color_0c5ca8');
+    });
+    // imenu pc端鼠标事件，pad需要默认选中第一个
+    $('.js_box_buy .js_left li:first').addClass('bg_white');
+    $('.js_box_buy .js_left li:first .js_content').removeClass('displaynone');
+    // 虽然是同样的名称.js_box_buy，但是第一个好使，对于第二个.js_box_buy，里面的first就会出问题！！！
+    // 解决：增加权重，更加精确的选择
+    $('.js_box_buy.box_buy .js_left li:first').addClass('bg_white');
+    $('.js_box_buy.box_buy .js_left li:first .js_content').removeClass('displaynone');
+    if (width < 750) {
+        // 回到顶部,滚动判断
+        $(".js_gototop").click(function() {
+            $("html,body").animate({ scrollTop: 0 }, 500);
+        });
+        $(document).scroll(function() {
+            var scroH = $(document).scrollTop(); //滚动高度
+            var viewH = $(window).height(); //可见高度 
+            var contentH = $(document).height(); //内容高度
+
+            if (scroH > 400) { //距离顶部大于100px时
+                $('.js_gototop').removeClass('displaynone');
+            } else {
+                $('.js_gototop').addClass('displaynone');
+            }
+        });
+    }
 }

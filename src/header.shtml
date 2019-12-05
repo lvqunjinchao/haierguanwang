@@ -36,30 +36,30 @@
                     </span>
                     <ul class="left js_left">
                         <p class="hover_line o_md-hide o_xs-hide"></p>
-                        <li class="border_top999 bg_white">
+                        <li class="">
                             <div class="relative">
                                 <p class="li_line"></p>
                                 <i class="iconfont iconbingxiang o_md-hide o_xs-hide"></i>
                                 <a href="javascript:;">冰箱</a>
                                 <a href="javascript:;">冷柜</a>
                             </div>
-                            <div class="content js_content o_g border_top999">
+                            <div class="content js_content o_g displaynone">
                                 <div class="not-hide">
                                     <a href="javasccript:;" class="title">冰箱</a>
                                     <div class="content_detail">
-                                        <span>对开门</span>
-                                        <span>十字开门</span>
-                                        <span>多门</span>
-                                        <span>三门</span>
-                                        <span>两门</span>
-                                        <span>单门</span>
+                                        <span class="o_u o_df_1-3">对开门</span>
+                                        <span class="o_u o_df_1-3">十字开门</span>
+                                        <span class="o_u o_df_1-3">多门</span>
+                                        <span class="o_u o_df_1-3">三门</span>
+                                        <span class="o_u o_df_1-3">两门</span>
+                                        <span class="o_u o_df_1-3">单门</span>
                                     </div>
                                 </div>
                                 <div class="not-hide">
                                     <a href="javasccript:;" class="title">冰箱</a>
                                     <div class="content_detail">
-                                        <span>对开门</span>
-                                        <span>十字开门</span>
+                                        <span class="o_u o_df_1-3">对开门</span>
+                                        <span class="o_u o_df_1-3">十字开门</span>
                                     </div>
                                 </div>
                                 <div class="content_bottom o_md-hide o_xs-hide">
@@ -79,23 +79,23 @@
                                 <a href="javascript:;">冰吧</a>
                                 <a href="javascript:;">酒柜</a>
                             </div>
-                            <div class="content js_content o_g displaynone border_top999">
+                            <div class="content js_content o_g displaynone ">
                                 <div class="not-hide">
                                     <a href="javasccript:;" class="title">冰吧</a>
                                     <div class="content_detail">
-                                        <span>对开酒柜</span>
-                                        <span>十字酒柜</span>
-                                        <span>横拉</span>
-                                        <span>拖拉</span>
-                                        <span>单拉</span>
-                                        <span>旋转</span>
+                                        <span class="o_u o_df_1-3">对开酒柜</span>
+                                        <span class="o_u o_df_1-3">十字酒柜</span>
+                                        <span class="o_u o_df_1-3">横拉</span>
+                                        <span class="o_u o_df_1-3">拖拉</span>
+                                        <span class="o_u o_df_1-3">单拉</span>
+                                        <span class="o_u o_df_1-3">旋转</span>
                                     </div>
                                 </div>
                                 <div class="not-hide">
                                     <a href="javasccript:;" class="title">酒柜</a>
                                     <div class="content_detail">
-                                        <span>对开门</span>
-                                        <span>十字开门</span>
+                                        <span class="o_u o_df_1-3">对开门</span>
+                                        <span class="o_u o_df_1-3">十字开门</span>
                                     </div>
                                 </div>
                                 <div class="content_bottom o_md-hide o_xs-hide">
@@ -114,16 +114,16 @@
                                 <i class="iconfont iconxiyiji o_md-hide o_xs-hide"></i>
                                 <a href="javascript:;">洗衣机</a>
                             </div>
-                            <div class="content js_content o_g displaynone border_top999">
+                            <div class="content js_content o_g displaynone ">
                                 <div class="not-hide">
                                     <a href="javasccript:;" class="title">洗衣机</a>
                                     <div class="content_detail">
-                                        <span>对开门</span>
-                                        <span>十字开门</span>
-                                        <span>多门</span>
-                                        <span>三门</span>
-                                        <span>两门</span>
-                                        <span>单门</span>
+                                        <span class="o_u o_df_1-3">对开门</span>
+                                        <span class="o_u o_df_1-3">十字开门</span>
+                                        <span class="o_u o_df_1-3">多门</span>
+                                        <span class="o_u o_df_1-3">三门</span>
+                                        <span class="o_u o_df_1-3">两门</span>
+                                        <span class="o_u o_df_1-3">单门</span>
                                     </div>
                                 </div>
                                 <div class="content_bottom o_md-hide o_xs-hide">
@@ -142,16 +142,16 @@
                                 <i class="iconfont iconkongtiao o_md-hide o_xs-hide"></i>
                                 <a href="javascript:;">空调</a>
                             </div>
-                            <div class="content js_content o_g displaynone border_top999">
+                            <div class="content js_content o_g displaynone ">
                                 <div class="not-hide">
                                     <a href="javasccript:;" class="title">空调</a>
                                     <div class="content_detail">
-                                        <span>对开门</span>
-                                        <span>十字开门</span>
-                                        <span>多门</span>
-                                        <span>三门</span>
-                                        <span>两门</span>
-                                        <span>单门</span>
+                                        <span class="o_u o_df_1-3">对开门</span>
+                                        <span class="o_u o_df_1-3">十字开门</span>
+                                        <span class="o_u o_df_1-3">多门</span>
+                                        <span class="o_u o_df_1-3">三门</span>
+                                        <span class="o_u o_df_1-3">两门</span>
+                                        <span class="o_u o_df_1-3">单门</span>
                                     </div>
                                 </div>
                                 <div class="content_bottom o_md-hide o_xs-hide">
@@ -170,16 +170,16 @@
                                 <i class="iconfont icondianshi o_md-hide o_xs-hide"></i>
                                 <a href="javascript:;">电视</a>
                             </div>
-                            <div class="content js_content o_g displaynone border_top999">
+                            <div class="content js_content o_g displaynone ">
                                 <div class="not-hide">
                                     <a href="javasccript:;" class="title">电视</a>
                                     <div class="content_detail">
-                                        <span>对开门</span>
-                                        <span>十字开门</span>
-                                        <span>多门</span>
-                                        <span>三门</span>
-                                        <span>两门</span>
-                                        <span>单门</span>
+                                        <span class="o_u o_df_1-3">对开门</span>
+                                        <span class="o_u o_df_1-3">十字开门</span>
+                                        <span class="o_u o_df_1-3">多门</span>
+                                        <span class="o_u o_df_1-3">三门</span>
+                                        <span class="o_u o_df_1-3">两门</span>
+                                        <span class="o_u o_df_1-3">单门</span>
                                     </div>
                                 </div>
                                 <div class="content_bottom o_md-hide o_xs-hide">
@@ -198,16 +198,16 @@
                                 <i class="iconfont iconreshuiqi o_md-hide o_xs-hide"></i>
                                 <a href="javascript:;">热水器</a>
                             </div>
-                            <div class="content js_content o_g displaynone border_top999">
+                            <div class="content js_content o_g displaynone ">
                                 <div class="not-hide">
                                     <a href="javasccript:;" class="title">热水器</a>
                                     <div class="content_detail">
-                                        <span>对开门</span>
-                                        <span>十字开门</span>
-                                        <span>多门</span>
-                                        <span>三门</span>
-                                        <span>两门</span>
-                                        <span>单门</span>
+                                        <span class="o_u o_df_1-3">对开门</span>
+                                        <span class="o_u o_df_1-3">十字开门</span>
+                                        <span class="o_u o_df_1-3">多门</span>
+                                        <span class="o_u o_df_1-3">三门</span>
+                                        <span class="o_u o_df_1-3">两门</span>
+                                        <span class="o_u o_df_1-3">单门</span>
                                     </div>
                                 </div>
                                 <div class="content_bottom o_md-hide o_xs-hide">
@@ -226,16 +226,16 @@
                                 <i class="iconfont iconchufangxiaojiadian o_md-hide o_xs-hide"></i>
                                 <a href="javascript:;">厨房电器</a>
                             </div>
-                            <div class="content js_content o_g displaynone border_top999">
+                            <div class="content js_content o_g displaynone ">
                                 <div class="not-hide">
                                     <a href="javasccript:;" class="title">厨房电器</a>
                                     <div class="content_detail">
-                                        <span>对开门</span>
-                                        <span>十字开门</span>
-                                        <span>多门</span>
-                                        <span>三门</span>
-                                        <span>两门</span>
-                                        <span>单门</span>
+                                        <span class="o_u o_df_1-3">对开门</span>
+                                        <span class="o_u o_df_1-3">十字开门</span>
+                                        <span class="o_u o_df_1-3">多门</span>
+                                        <span class="o_u o_df_1-3">三门</span>
+                                        <span class="o_u o_df_1-3">两门</span>
+                                        <span class="o_u o_df_1-3">单门</span>
                                     </div>
                                 </div>
                                 <div class="content_bottom o_md-hide o_xs-hide">
@@ -254,16 +254,16 @@
                                 <i class="iconfont icongehuxiaojiadian o_md-hide o_xs-hide"></i>
                                 <a href="javascript:;">小家电</a>
                             </div>
-                            <div class="content js_content o_g displaynone border_top999">
+                            <div class="content js_content o_g displaynone ">
                                 <div class="not-hide">
                                     <a href="javasccript:;" class="title">小家电</a>
                                     <div class="content_detail">
-                                        <span>对开门</span>
-                                        <span>十字开门</span>
-                                        <span>多门</span>
-                                        <span>三门</span>
-                                        <span>两门</span>
-                                        <span>单门</span>
+                                        <span class="o_u o_df_1-3">对开门</span>
+                                        <span class="o_u o_df_1-3">十字开门</span>
+                                        <span class="o_u o_df_1-3">多门</span>
+                                        <span class="o_u o_df_1-3">三门</span>
+                                        <span class="o_u o_df_1-3">两门</span>
+                                        <span class="o_u o_df_1-3">单门</span>
                                     </div>
                                 </div>
                                 <div class="content_bottom o_md-hide o_xs-hide">
@@ -282,16 +282,16 @@
                                 <i class="iconfont iconquanwujiadiandingzhi o_md-hide o_xs-hide"></i>
                                 <a href="javascript:;">电脑和外设</a>
                             </div>
-                            <div class="content js_content o_g displaynone border_top999">
+                            <div class="content js_content o_g displaynone ">
                                 <div class="not-hide">
                                     <a href="javasccript:;" class="title">电脑和外设</a>
                                     <div class="content_detail">
-                                        <span>对开门</span>
-                                        <span>十字开门</span>
-                                        <span>多门</span>
-                                        <span>三门</span>
-                                        <span>两门</span>
-                                        <span>单门</span>
+                                        <span class="o_u o_df_1-3">对开门</span>
+                                        <span class="o_u o_df_1-3">十字开门</span>
+                                        <span class="o_u o_df_1-3">多门</span>
+                                        <span class="o_u o_df_1-3">三门</span>
+                                        <span class="o_u o_df_1-3">两门</span>
+                                        <span class="o_u o_df_1-3">单门</span>
                                     </div>
                                 </div>
                                 <div class="content_bottom o_md-hide o_xs-hide">
@@ -332,12 +332,12 @@
                     </span>
                     <ul class="left js_left">
                         <p class="hover_line o_md-hide o_xs-hide"></p>
-                        <li class="border_top999 bg_white">
+                        <li class="xuanzhong">
                             <div class="relative">
                                 <p class="li_line"></p>
                                 <a href="javascript:;">购买渠道</a>
                             </div>
-                            <div class="content js_content o_g border_top999">
+                            <div class="content js_content o_g displaynone">
                                 <span class="o_u o_df_1-2">
                                     <a href="javascript:;">海尔商城</a>
                                 </span>
@@ -351,7 +351,7 @@
                                 <p class="li_line displaynone"></p>
                                 <a href="javascript:;">售后服务</a>
                             </div>
-                            <div class="content js_content o_g displaynone border_top999">
+                            <div class="content js_content o_g displaynone ">
                                 <span class="o_u o_df_1-2">
                                     <a href="javascript:;">认证产品</a>
                                 </span>
@@ -383,7 +383,7 @@
                                 <p class="li_line displaynone"></p>
                                 <a href="javascript:;">会员尊享</a>
                             </div>
-                            <div class="content js_content o_g displaynone border_top999">
+                            <div class="content js_content o_g displaynone ">
                                 <span class="o_u o_df_1-2">
                                     <a href="javascript:;">免费试用</a>
                                 </span>
