@@ -179,8 +179,7 @@
             box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
             top: 100%;
             left: 0;
-            display: none;
-            // width: 140px;
+            display: none; // width: 140px;
             height: 150px;
             li {
                 height: 50px;
@@ -428,7 +427,8 @@ a {
     margin: 0 auto;
     overflow: hidden;
     position: relative;
-    height: 5.06rem;
+    height: auto;
+
     .pager {
         position: absolute;
         bottom: 0.35rem;
@@ -690,6 +690,9 @@ a {
                 height: 100%;
                 width: 100%;
                 white-space: normal;
+                .o_font0 {
+                    height: 100%;
+                }
                 li {
                     position: relative;
                     font-size: 0;
@@ -746,8 +749,10 @@ a {
                             .star_img {
                                 padding-top: 1.12rem;
                                 width: 64% !important;
+                                text-align: center;
                                 img {
-                                    height: 5.76rem;
+                                    height: 100%;
+                                    width: 100%;
                                 }
                             }
                             .star_price {
@@ -1422,9 +1427,18 @@ a {
     } // 爆款商品
     .star {
         height: 6rem;
-        .content .star_banner .showbox li .star_linka .star_content .star_img {
-            padding-top: 0.12rem;
-            width: 64% !important;
+        .content .star_banner .showbox li .star_linka .star_content {
+            .star_img {
+                padding-top: 0.12rem;
+                width: 64% !important;
+                height: 100%;
+            }
+            .star_msg {
+                top: 0.8rem;
+            }
+            .star_sale {
+                top: 0.8rem;
+            }
         }
     } // 新闻资讯
     .news {
@@ -1446,9 +1460,7 @@ a {
             }
         }
     }
-}
-
-// Pad端 end
+} // Pad端 end
 //手机端开始 start
 @media screen and (max-width:751px) {
     // 头部 start
@@ -1456,11 +1468,10 @@ a {
         width: auto;
         position: relative;
         display: inline-block;
-    } 
-    // 头部imenu start
+    } // 头部imenu start
     .header2019 .warp .nav .box .left {
         min-width: 1.8rem;
-        li{
+        li {
             padding-left: 10px!important;
             .li_line {
                 position: absolute;
@@ -1471,10 +1482,7 @@ a {
                 width: 4px;
             }
         }
-    }
-    // 头部imenu end
-    // 头部 end
-    // 身体开始
+    } // 身体开始
     // 回到顶部 start
     .gototop {
         text-align: center;
@@ -1483,15 +1491,14 @@ a {
         position: fixed;
         bottom: 1.3rem;
         line-height: .8rem;
-        background: rgba(0,0,0,.6);
+        background: rgba(0, 0, 0, .6);
         z-index: 999;
         right: .2rem;
         display: block;
         border-radius: 5px;
         background-image: url(./ia_100000000396.png);
         background-size: 100%;
-    }
-    // 回到顶部 end
+    } // 回到顶部 end
     // 头部下面的轮播图
     .banner {
         height: 3.6rem;
@@ -1600,63 +1607,64 @@ a {
     .star {
         height: 9.2rem;
         margin-top: 0.5rem;
-        .content .star_banner .showbox li {
-            height: 9.2rem;
-            .star_linka .star_content {
-                // 父级一定要设置font-size：0;否则display: inline-block;有问题
-                font-size: 0;
-                .star_msg {
-                    padding-top: 0.3rem;
-                    position: static;
-                    width: 45% !important;
-                    text-align: left;
-                    box-sizing: border-box;
-                    display: inline-block;
+        .content .star_banner .showbox {
+            .o_font0 {
+                height: 100%;
+            }
+            li {
+                .star_linka .star_content {
+                    // 父级一定要设置font-size：0;否则display: inline-block;有问题
                     font-size: 0;
-                    .star_name {
-                        font-size: 0.36rem;
-                        line-height: 0.52rem;
-                        margin-bottom: 0.24rem;
-                        white-space: normal;
+                    .star_msg {
+                        padding-top: 0.3rem;
+                        position: static;
+                        width: 45% !important;
+                        text-align: left;
+                        box-sizing: border-box;
+                        display: inline-block;
+                        font-size: 0;
+                        .star_name {
+                            font-size: 0.36rem;
+                            line-height: 0.52rem;
+                            margin-bottom: 0.24rem;
+                            white-space: normal;
+                        }
                     }
-                }
-                .star_sale {
-                    padding-top: 0.3rem;
-                    position: static !important;
-                    width: 55% !important;
-                    box-sizing: border-box;
-                    text-align: right;
-                    display: inline-block;
-                    vertical-align: top;
-                    p {
+                    .star_sale {
+                        padding-top: 0.3rem;
+                        position: static !important;
+                        width: 55% !important;
+                        box-sizing: border-box;
+                        text-align: right;
+                        display: inline-block;
                         vertical-align: top;
-                        font-size: 0.24rem;
-                        line-height: 0.44rem;
+                        p {
+                            vertical-align: top;
+                            font-size: 0.24rem;
+                            line-height: 0.44rem;
+                        }
                     }
-                }
-                .star_img {
-                    width: 81.3% !important;
-                    padding-top: 0.6rem;
-                    margin-bottom: 0.6rem;
-                    img {
-                        height: 4.22rem;
+                    .star_img {
+                        width: 81.3% !important;
+                        padding-top: 0.6rem;
+                        margin-bottom: 0.6rem;
                     }
-                }
-                .star_price {
-                    text-align: right;
-                    position: static;
-                    height: 0.5rem;
-                    .price_normal {
-                        display: inline-block;
-                        font-size: 0.24rem;
-                        height: auto;
-                        vertical-align: text-bottom;
-                    }
-                    .price_big {
-                        display: inline-block;
-                        font-size: 0.48rem;
-                        vertical-align: text-bottom;
-                        line-height: 0.55rem;
+                    .star_price {
+                        text-align: right;
+                        position: static;
+                        height: 0.5rem;
+                        .price_normal {
+                            display: inline-block;
+                            font-size: 0.24rem;
+                            height: auto;
+                            vertical-align: text-bottom;
+                        }
+                        .price_big {
+                            display: inline-block;
+                            font-size: 0.48rem;
+                            vertical-align: text-bottom;
+                            line-height: 0.55rem;
+                        }
                     }
                 }
             }
@@ -1908,7 +1916,7 @@ a {
         background: #fafafa;
         text-align: center;
         .warp {
-            padding: 10px 15px 0;
+            padding: 10px 15px 1.2rem;
             .bottom {
                 margin: 0;
                 border: none;
@@ -1951,6 +1959,4 @@ a {
             }
         }
     } // 尾部 end
-}
-
-//手机端开始 end
+} //手机端开始 end

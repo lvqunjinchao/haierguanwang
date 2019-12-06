@@ -38,20 +38,21 @@
             <div class="banner js_banner o_g">
                 <div class="showbox">
                     <ul class="o_g">
-                        <li class="o_u o_df_2-2 o_sm_1-2">
-                            <img src="./images/ia_100001653.jpg" alt=""><span>1</span>
+                        <!-- 在js文件中，是没有o_picture的，需要自己写上去方法 -->
+                        <li class="o_u o_df_2-2 o_sm_1-2 js_firstimg">
+                            <img src="./images/ia_100000020.jpg" df="./images/ia_100000020.jpg" xs='./images/ia_100001653.jpg' class="o_picture" alt="">
                         </li>
                         <li class="o_u o_df_2-2 o_sm_1-2">
-                            <img class="o_lazy" df="./images/ia_100001657.png" alt="">
+                            <img class="o_lazy" df="./images/ia_100000021.jpeg" xs='./images/ia_100001655.jpeg' alt="">
                         </li>
                         <li class="o_u o_df_2-2 o_sm_1-2">
-                            <img class="o_lazy" df="./images/ia_100001659.jpg" alt="">
+                            <img class="o_lazy" df="./images/ia_100000022.png" xs='./images/ia_100001657.png' alt="">
                         </li>
                         <li class="o_u o_df_2-2 o_sm_1-2">
-                            <img class="o_lazy" df="./images/ia_100001661.jpeg" alt="">
+                            <img class="o_lazy" df="./images/ia_100000023.jpg" xs='./images/ia_100001659.jpg' alt="">
                         </li>
                         <li class="o_u o_df_2-2 o_sm_1-2">
-                            <img class="o_lazy" df="./images/ia_100001661.jpeg" alt="">
+                            <img class="o_lazy" df="./images/ia_100000024.jpeg" xs='./images/ia_100001661.jpeg' alt="">
                         </li>
                     </ul>
                 </div>

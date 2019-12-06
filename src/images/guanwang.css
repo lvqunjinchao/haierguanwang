@@ -391,7 +391,7 @@ a {
   margin: 0 auto;
   overflow: hidden;
   position: relative;
-  height: 5.06rem;
+  height: auto;
   /*需要分页自定义css*/
   /*需要左右箭头自定义css*/
 }
@@ -658,6 +658,9 @@ a {
   width: 100%;
   white-space: normal;
 }
+.star .content .star_banner .showbox .o_font0 {
+  height: 100%;
+}
 .star .content .star_banner .showbox li {
   position: relative;
   font-size: 0;
@@ -717,9 +720,11 @@ a {
 .star .content .star_banner .showbox li .star_linka .star_content .star_img {
   padding-top: 1.12rem;
   width: 64% !important;
+  text-align: center;
 }
 .star .content .star_banner .showbox li .star_linka .star_content .star_img img {
-  height: 5.76rem;
+  height: 100%;
+  width: 100%;
 }
 .star .content .star_banner .showbox li .star_linka .star_content .star_price {
   position: absolute;
@@ -1362,6 +1367,13 @@ a {
   .star .content .star_banner .showbox li .star_linka .star_content .star_img {
     padding-top: 0.12rem;
     width: 64% !important;
+    height: 100%;
+  }
+  .star .content .star_banner .showbox li .star_linka .star_content .star_msg {
+    top: 0.8rem;
+  }
+  .star .content .star_banner .showbox li .star_linka .star_content .star_sale {
+    top: 0.8rem;
   }
   .news .news_left .news_details .detail_img {
     width: 100%;
@@ -1516,8 +1528,8 @@ a {
     height: 9.2rem;
     margin-top: 0.5rem;
   }
-  .star .content .star_banner .showbox li {
-    height: 9.2rem;
+  .star .content .star_banner .showbox .o_font0 {
+    height: 100%;
   }
   .star .content .star_banner .showbox li .star_linka .star_content {
     font-size: 0;
@@ -1555,9 +1567,6 @@ a {
     width: 81.3% !important;
     padding-top: 0.6rem;
     margin-bottom: 0.6rem;
-  }
-  .star .content .star_banner .showbox li .star_linka .star_content .star_img img {
-    height: 4.22rem;
   }
   .star .content .star_banner .showbox li .star_linka .star_content .star_price {
     text-align: right;
@@ -1808,7 +1817,7 @@ a {
     text-align: center;
   }
   .footer .warp {
-    padding: 10px 15px 0;
+    padding: 10px 15px 1.2rem;
   }
   .footer .warp .bottom {
     margin: 0;
