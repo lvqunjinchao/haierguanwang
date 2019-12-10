@@ -127,10 +127,11 @@ $(document).ready(function() {
     var width = $(window).width();
     var height = $(window).height();
     if (width > 1200) {
-        height = height + 'px';
-        // 头部之下轮播图 start
-        $('.star .star_banner li').css('height', height);
-        // 头部之下轮播图 end
+        // height = height + 'px';
+        // 爆款 轮播图 start 有rem就足够了
+        // 使用js会因为f12导致屏幕改变从而影响高度，所以使用rem即可
+        // $('.star .star_banner li').css('height', height);
+        // 爆款 轮播图 end
 
         $(".search input").on("click", function(e) {
             var $this = $(this);
